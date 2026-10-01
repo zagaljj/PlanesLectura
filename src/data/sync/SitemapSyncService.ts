@@ -52,7 +52,10 @@ export class SitemapSyncService {
       await this.articleRepo.upsertArticles(parsedArticles);
 
       return newArticles.length;
-    } catch {
+    } catch (error) {
+      if (typeof __DEV__ !== 'undefined' && __DEV__) {
+        console.warn('Sitemap sync skipped due to network/parsing error:', error);
+      }
       // Offline resilience: return 0 without throwing
       return 0;
     }
