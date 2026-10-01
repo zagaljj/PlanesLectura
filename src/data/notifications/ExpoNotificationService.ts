@@ -1,23 +1,42 @@
-import * as Notifications from 'expo-notifications';
 import { ISQLiteDatabase } from '../sqlite/DatabaseManager';
 import {
   NotificationService,
   NotificationSettings,
 } from '../../domain/services/NotificationService';
 
-// Configure foreground notification behavior
-try {
-  Notifications.setNotificationHandler({
-    handleNotification: async () => ({
-      shouldShowAlert: true,
-      shouldShowBanner: true,
-      shouldShowList: true,
-      shouldPlaySound: true,
-      shouldSetBadge: false,
-    }),
-  });
-} catch {
-  // Silent fallback in test or headless environments
+type NotificationsType = typeof import('expo-notifications');
+
+let cachedNotifications: NotificationsType | null | undefined = undefined;
+
+export function getNotifications(): NotificationsType | null {
+  if (cachedNotifications !== undefined) {
+    return cachedNotifications;
+  }
+
+  try {
+    // Dynamic require avoids top-level crash in environments where
+    // expo-notifications native modules are removed (e.g. Android Expo Go SDK 53)
+    const Notifications = require('expo-notifications') as NotificationsType;
+    try {
+      Notifications.setNotificationHandler({
+        handleNotification: async () => ({
+          shouldShowAlert: true,
+          shouldShowBanner: true,
+          shouldShowList: true,
+          shouldPlaySound: true,
+          shouldSetBadge: false,
+        }),
+      });
+    } catch {
+      // Ignored if handler setup is unsupported
+    }
+    cachedNotifications = Notifications;
+  } catch (err) {
+    console.warn('[ExpoNotificationService] expo-notifications unavailable in this runtime:', err);
+    cachedNotifications = null;
+  }
+
+  return cachedNotifications;
 }
 
 export class ExpoNotificationService implements NotificationService {
@@ -37,6 +56,11 @@ export class ExpoNotificationService implements NotificationService {
   }
 
   async requestPermissions(): Promise<boolean> {
+    const Notifications = getNotifications();
+    if (!Notifications) {
+      return false;
+    }
+
     try {
       const { status: existingStatus } = await Notifications.getPermissionsAsync();
       let finalStatus = existingStatus;
@@ -92,6 +116,11 @@ export class ExpoNotificationService implements NotificationService {
   }
 
   async scheduleDailyReminder(hour: number, minute: number): Promise<boolean> {
+    const Notifications = getNotifications();
+    if (!Notifications) {
+      return false;
+    }
+
     const hasPermission = await this.requestPermissions();
     if (!hasPermission) {
       return false;
@@ -122,16 +151,24 @@ export class ExpoNotificationService implements NotificationService {
   }
 
   async cancelReminders(): Promise<void> {
-    try {
-      await Notifications.cancelAllScheduledNotificationsAsync();
-    } catch {
-      // Ignore if canceling fails
+    const Notifications = getNotifications();
+    if (Notifications) {
+      try {
+        await Notifications.cancelAllScheduledNotificationsAsync();
+      } catch {
+        // Ignore if canceling fails
+      }
     }
     const current = await this.getSettings();
     await this.saveSettings({ ...current, enabled: false });
   }
 
   async sendTestNotification(): Promise<boolean> {
+    const Notifications = getNotifications();
+    if (!Notifications) {
+      return false;
+    }
+
     const hasPermission = await this.requestPermissions();
     if (!hasPermission) {
       return false;

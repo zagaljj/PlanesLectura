@@ -74,6 +74,7 @@ export default function SettingsScreen({
         const success = await notificationService.scheduleDailyReminder(reminderHour, reminderMinute);
         if (!success) {
           setNotificationEnabled(false);
+          setTestNotificationMessage('No se pudo activar el recordatorio en este entorno (en Android Expo Go SDK 53 se requiere Development Build).');
         }
       } else {
         await notificationService.cancelReminders();
@@ -98,7 +99,7 @@ export default function SettingsScreen({
       if (success) {
         setTestNotificationMessage('¡Notificación enviada! Revisa la barra de notificaciones de tu teléfono.');
       } else {
-        setTestNotificationMessage('Verifica que hayas concedido permisos de notificación en tu teléfono.');
+        setTestNotificationMessage('No se pudo enviar la notificación de prueba (en Android Expo Go SDK 53 las notificaciones requieren Development Build).');
       }
     } catch {
       setTestNotificationMessage('Error al enviar la notificación de prueba.');
