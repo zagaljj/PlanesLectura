@@ -11,6 +11,7 @@ import {
 import * as WebBrowser from 'expo-web-browser';
 import { useAppContext, useAppTheme } from '../../src/presentation/context/AppContext';
 import { SitemapSyncService } from '../../src/data/sync/SitemapSyncService';
+import { NotificationService } from '../../src/domain/services/NotificationService';
 import { fontFamilies, fontSizes, fontWeights } from '../../src/presentation/theme/typography';
 
 export interface DatabaseStats {
@@ -25,22 +26,84 @@ export interface DatabaseStats {
 export interface SettingsScreenProps {
   sitemapSyncService?: SitemapSyncService;
   databaseStats?: DatabaseStats;
+  notificationService?: NotificationService;
 }
 
 export default function SettingsScreen({
   sitemapSyncService: propSyncService,
   databaseStats: propStats,
+  notificationService: propNotificationService,
 }: SettingsScreenProps) {
   const context = useAppContext();
   const { colors, isDarkMode, toggleTheme } = useAppTheme();
 
   const syncService = propSyncService ?? context.sitemapSyncService;
+  const notificationService = propNotificationService ?? context.notificationService;
   const db = context.database;
 
   const [stats, setStats] = useState<DatabaseStats | null>(propStats ?? null);
   const [loadingStats, setLoadingStats] = useState<boolean>(!propStats);
   const [isSyncing, setIsSyncing] = useState<boolean>(false);
   const [syncMessage, setSyncMessage] = useState<string | null>(null);
+
+  const [notificationEnabled, setNotificationEnabled] = useState<boolean>(false);
+  const [reminderHour, setReminderHour] = useState<number>(8);
+  const [reminderMinute, setReminderMinute] = useState<number>(0);
+  const [testNotificationMessage, setTestNotificationMessage] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function loadNotificationSettings() {
+      if (!notificationService) return;
+      try {
+        const settings = await notificationService.getSettings();
+        setNotificationEnabled(settings.enabled);
+        setReminderHour(settings.hour);
+        setReminderMinute(settings.minute);
+      } catch {
+        // Fallback
+      }
+    }
+    loadNotificationSettings();
+  }, [notificationService]);
+
+  const handleToggleNotification = async (enabled: boolean) => {
+    setNotificationEnabled(enabled);
+    if (!notificationService) return;
+    try {
+      if (enabled) {
+        const success = await notificationService.scheduleDailyReminder(reminderHour, reminderMinute);
+        if (!success) {
+          setNotificationEnabled(false);
+        }
+      } else {
+        await notificationService.cancelReminders();
+      }
+    } catch {
+      setNotificationEnabled(!enabled);
+    }
+  };
+
+  const handleChangeHour = async (newHour: number) => {
+    setReminderHour(newHour);
+    if (notificationEnabled && notificationService) {
+      await notificationService.scheduleDailyReminder(newHour, reminderMinute);
+    }
+  };
+
+  const handleSendTestNotification = async () => {
+    if (!notificationService) return;
+    try {
+      setTestNotificationMessage(null);
+      const success = await notificationService.sendTestNotification();
+      if (success) {
+        setTestNotificationMessage('¡Notificación enviada! Revisa la barra de notificaciones de tu teléfono.');
+      } else {
+        setTestNotificationMessage('Verifica que hayas concedido permisos de notificación en tu teléfono.');
+      }
+    } catch {
+      setTestNotificationMessage('Error al enviar la notificación de prueba.');
+    }
+  };
 
   const loadDatabaseStats = useCallback(async () => {
     if (propStats) {
@@ -237,6 +300,96 @@ export default function SettingsScreen({
         </View>
       </View>
 
+      {/* Reading Reminders (Push Notifications) */}
+      <View style={[styles.sectionCard, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+        <Text style={[styles.sectionTitle, { color: colors.primary }]}>🔔 Recordatorios de Lectura</Text>
+        <Text style={[styles.sectionSubtitle, { color: colors.textSecondary }]}>
+          Programa notificaciones locales para mantener la constancia en tus planes bíblicos.
+        </Text>
+
+        <View style={styles.settingRow}>
+          <View style={styles.settingTextContainer}>
+            <Text style={[styles.settingLabel, { color: colors.text }]}>Recordatorio Diario</Text>
+            <Text style={[styles.settingDescription, { color: colors.textSecondary }]}>
+              Notificación diaria a las {reminderHour.toString().padStart(2, '0')}:{reminderMinute.toString().padStart(2, '0')} hrs
+            </Text>
+          </View>
+          <Switch
+            value={notificationEnabled}
+            onValueChange={handleToggleNotification}
+            trackColor={{ false: colors.border, true: colors.primary }}
+            thumbColor={colors.surface}
+            accessibilityLabel="Activar recordatorio diario"
+          />
+        </View>
+
+        {notificationEnabled && (
+          <View style={styles.hoursContainer}>
+            <Text style={[styles.hoursLabel, { color: colors.textSecondary }]}>
+              Selecciona la hora de tu recordatorio:
+            </Text>
+            <View style={styles.hoursRow}>
+              {[6, 7, 8, 9, 12, 19, 20, 21, 22].map((h) => {
+                const isSelected = reminderHour === h;
+                return (
+                  <TouchableOpacity
+                    key={h}
+                    style={[
+                      styles.hourChip,
+                      {
+                        backgroundColor: isSelected ? colors.primary : colors.surface,
+                        borderColor: isSelected ? colors.primary : colors.border,
+                      },
+                    ]}
+                    onPress={() => handleChangeHour(h)}
+                    accessibilityRole="button"
+                    accessibilityLabel={`Seleccionar hora ${h}:00`}
+                  >
+                    <Text
+                      style={[
+                        styles.hourChipText,
+                        { color: isSelected ? colors.textInverse : colors.text },
+                      ]}
+                    >
+                      {h.toString().padStart(2, '0')}:00
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
+          </View>
+        )}
+
+        <TouchableOpacity
+          style={[styles.testNotificationButton, { borderColor: colors.primary }]}
+          onPress={handleSendTestNotification}
+          accessibilityRole="button"
+          accessibilityLabel="Enviar notificación de prueba"
+        >
+          <Text style={[styles.testNotificationButtonText, { color: colors.primary }]}>
+            🔔 Enviar notificación de prueba ahora
+          </Text>
+        </TouchableOpacity>
+
+        {testNotificationMessage && (
+          <View
+            style={[
+              styles.messageBanner,
+              {
+                backgroundColor: colors.infoBg,
+                borderColor: colors.info,
+                marginTop: 12,
+                marginBottom: 0,
+              },
+            ]}
+          >
+            <Text style={[styles.messageText, { color: colors.info }]}>
+              {testNotificationMessage}
+            </Text>
+          </View>
+        )}
+      </View>
+
       {/* About & Credits Info */}
       <View style={[styles.sectionCard, { backgroundColor: colors.surface, borderColor: colors.border }]}>
         <Text style={[styles.sectionTitle, { color: colors.primary }]}>ℹ️ Acerca de la Aplicación</Text>
@@ -391,5 +544,44 @@ const styles = StyleSheet.create({
     fontSize: fontSizes.sm,
     fontFamily: fontFamilies.sans,
     fontWeight: fontWeights.semiBold,
+  },
+  hoursContainer: {
+    marginTop: 12,
+    marginBottom: 6,
+  },
+  hoursLabel: {
+    fontSize: fontSizes.xs,
+    fontFamily: fontFamilies.sans,
+    fontWeight: fontWeights.medium,
+    marginBottom: 8,
+  },
+  hoursRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  hourChip: {
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 8,
+    borderWidth: 1,
+  },
+  hourChipText: {
+    fontSize: fontSizes.xs,
+    fontFamily: fontFamilies.sans,
+    fontWeight: fontWeights.semiBold,
+  },
+  testNotificationButton: {
+    marginTop: 14,
+    borderRadius: 10,
+    paddingVertical: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1.5,
+  },
+  testNotificationButtonText: {
+    fontSize: fontSizes.sm,
+    fontFamily: fontFamilies.sans,
+    fontWeight: fontWeights.bold,
   },
 });

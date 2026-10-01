@@ -86,4 +86,42 @@ describe('SettingsScreen', () => {
       'https://vidaesperanzayverdad.org'
     );
   });
+
+  it('should interact with reading reminder notification controls', async () => {
+    const mockNotificationService = {
+      getSettings: jest.fn().mockResolvedValue({ enabled: true, hour: 8, minute: 0 }),
+      scheduleDailyReminder: jest.fn().mockResolvedValue(true),
+      cancelReminders: jest.fn().mockResolvedValue(undefined),
+      sendTestNotification: jest.fn().mockResolvedValue(true),
+      requestPermissions: jest.fn().mockResolvedValue(true),
+    };
+
+    const { getByText } = await render(
+      <SettingsScreen
+        sitemapSyncService={mockSitemapSyncService}
+        databaseStats={mockDatabaseStats}
+        notificationService={mockNotificationService as any}
+      />
+    );
+
+    await waitFor(() => {
+      expect(getByText('🔔 Recordatorios de Lectura')).toBeTruthy();
+      expect(getByText('08:00')).toBeTruthy();
+      expect(getByText('🔔 Enviar notificación de prueba ahora')).toBeTruthy();
+    });
+
+    const hourChip = getByText('20:00');
+    await fireEvent.press(hourChip);
+
+    expect(mockNotificationService.scheduleDailyReminder).toHaveBeenCalledWith(20, 0);
+
+    const testBtn = getByText('🔔 Enviar notificación de prueba ahora');
+    await fireEvent.press(testBtn);
+
+    expect(mockNotificationService.sendTestNotification).toHaveBeenCalledTimes(1);
+
+    await waitFor(() => {
+      expect(getByText(/¡Notificación enviada!/i)).toBeTruthy();
+    });
+  });
 });

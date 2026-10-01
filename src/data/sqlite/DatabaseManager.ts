@@ -59,12 +59,15 @@ export class DatabaseManager {
    * Creates an isolated in-memory database with migrations executed and seed data loaded.
    * Perfect for unit and integration testing in Node/Jest.
    */
-  static async createInMemory(): Promise<ISQLiteDatabase> {
+  static async createInMemory(seedBible: boolean = false): Promise<ISQLiteDatabase> {
     const db = (await SQLite.openDatabaseAsync(':memory:')) as unknown as ISQLiteDatabase;
 
     await db.execAsync('PRAGMA foreign_keys = ON;');
     await runMigrations(db);
     await DatabaseManager.seed(db);
+    if (seedBible) {
+      await DatabaseManager.seedBible(db);
+    }
 
     return db;
   }
@@ -82,9 +85,50 @@ export class DatabaseManager {
     await db.execAsync('PRAGMA foreign_keys = ON;');
     await runMigrations(db);
     await DatabaseManager.seed(db);
+    await DatabaseManager.seedBible(db);
 
     DatabaseManager.instance = db;
     return db;
+  }
+
+  /**
+   * Seeds all 31,104 verses of Reina-Valera 1960 into the bible_verses table.
+   * Skips execution if verses already exist in the database.
+   */
+  static async seedBible(
+    db: ISQLiteDatabase,
+    bibleData?: Record<string, string[][]>
+  ): Promise<void> {
+    const existing = await db.getFirstAsync<{ count: number }>(
+      'SELECT count(*) as count FROM bible_verses'
+    );
+    if (existing && existing.count > 0) {
+      return;
+    }
+
+    const data: Record<string, string[][]> =
+      bibleData || require('../../../assets/data/bible/rvr1960.json');
+
+    await db.withTransactionAsync(async () => {
+      for (const [bookId, chapters] of Object.entries(data)) {
+        for (let chIdx = 0; chIdx < chapters.length; chIdx++) {
+          const chapterNum = chIdx + 1;
+          const verses = chapters[chIdx];
+          for (let vIdx = 0; vIdx < verses.length; vIdx++) {
+            const verseNum = vIdx + 1;
+            const text = verses[vIdx];
+            await db.runAsync(
+              `INSERT OR IGNORE INTO bible_verses (book_id, chapter, verse, verse_text)
+               VALUES (?, ?, ?, ?)`,
+              bookId,
+              chapterNum,
+              verseNum,
+              text
+            );
+          }
+        }
+      }
+    });
   }
 
   /**

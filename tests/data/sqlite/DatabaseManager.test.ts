@@ -201,5 +201,49 @@ describe('DatabaseManager', () => {
 
     await DatabaseManager.resetInstance();
   });
+
+  it('should seed bible verses and retrieve passages correctly', async () => {
+    const db = await DatabaseManager.createInMemory();
+
+    const sampleBible: Record<string, string[][]> = {
+      GAL: [
+        [],
+        [],
+        [],
+        [],
+        [
+          ...Array(21).fill('verso previo'),
+          'Mas el fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fe,',
+          'mansedumbre, templanza; contra tales cosas no hay ley.',
+        ],
+      ],
+    };
+
+    await DatabaseManager.seedBible(db, sampleBible);
+
+    const gal522 = await db.getFirstAsync<{ verse_text: string }>(
+      'SELECT verse_text FROM bible_verses WHERE book_id = ? AND chapter = ? AND verse = ?',
+      'GAL',
+      5,
+      22
+    );
+    expect(gal522?.verse_text).toContain('fruto del Espíritu');
+
+    const gal523 = await db.getFirstAsync<{ verse_text: string }>(
+      'SELECT verse_text FROM bible_verses WHERE book_id = ? AND chapter = ? AND verse = ?',
+      'GAL',
+      5,
+      23
+    );
+    expect(gal523?.verse_text).toContain('mansedumbre, templanza');
+
+    // Idempotent: seeding again does not duplicate
+    await DatabaseManager.seedBible(db, sampleBible);
+    const count = await db.getFirstAsync<{ count: number }>(
+      'SELECT count(*) as count FROM bible_verses WHERE book_id = ?',
+      'GAL'
+    );
+    expect(count?.count).toBe(23);
+  });
 });
 

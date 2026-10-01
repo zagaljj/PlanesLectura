@@ -20,6 +20,8 @@ import {
   SubscribeToPlan,
 } from '../../domain/usecases';
 import { SitemapSyncService } from '../../data/sync/SitemapSyncService';
+import { NotificationService } from '../../domain/services/NotificationService';
+import { ExpoNotificationService } from '../../data/notifications/ExpoNotificationService';
 import { PlanReading } from '../../domain/entities';
 import { lightColors, darkColors, ColorPalette } from '../theme/colors';
 
@@ -37,6 +39,7 @@ export interface AppContextType {
   getPlanCatalogUseCase: GetPlanCatalog | null;
   subscribeToPlanUseCase: SubscribeToPlan | null;
   sitemapSyncService: SitemapSyncService | null;
+  notificationService: NotificationService | null;
   selectedReading: PlanReading | null;
   selectedSubscriptionId: string | null;
   setSelectedReading: (reading: PlanReading | null, subscriptionId?: string | null) => void;
@@ -65,6 +68,7 @@ export interface AppProviderProps {
   getPlanCatalogUseCase?: GetPlanCatalog;
   subscribeToPlanUseCase?: SubscribeToPlan;
   sitemapSyncService?: SitemapSyncService;
+  notificationService?: NotificationService;
 }
 
 export const AppProvider: React.FC<AppProviderProps> = ({
@@ -80,6 +84,7 @@ export const AppProvider: React.FC<AppProviderProps> = ({
   getPlanCatalogUseCase: overrideGetCatalog,
   subscribeToPlanUseCase: overrideSubscribe,
   sitemapSyncService: overrideSyncService,
+  notificationService: overrideNotificationService,
 }) => {
   const [isInitialized, setIsInitialized] = useState<boolean>(Boolean(initialDatabase));
   const [initError, setInitError] = useState<Error | null>(null);
@@ -197,6 +202,12 @@ export const AppProvider: React.FC<AppProviderProps> = ({
     return new SitemapSyncService(articleRepo);
   }, [articleRepo, overrideSyncService]);
 
+  const notificationService = useMemo(() => {
+    if (overrideNotificationService) return overrideNotificationService;
+    if (!database) return null;
+    return new ExpoNotificationService(database);
+  }, [database, overrideNotificationService]);
+
   const colors = isDarkMode ? darkColors : lightColors;
 
   const value: AppContextType = {
@@ -213,6 +224,7 @@ export const AppProvider: React.FC<AppProviderProps> = ({
     getPlanCatalogUseCase,
     subscribeToPlanUseCase,
     sitemapSyncService,
+    notificationService,
     selectedReading,
     selectedSubscriptionId,
     setSelectedReading,
@@ -247,6 +259,7 @@ export function useAppContext(): AppContextType {
       getPlanCatalogUseCase: null,
       subscribeToPlanUseCase: null,
       sitemapSyncService: null,
+      notificationService: null,
       selectedReading: null,
       selectedSubscriptionId: null,
       setSelectedReading: () => {},
