@@ -54,7 +54,7 @@ export const SEED_PLANS: RawPlanData[] = [
 
 export class DatabaseManager {
   private static instance: ISQLiteDatabase | null = null;
-  private static bibleSeedPromise: Promise<void> | null = null;
+  private static initPromise: Promise<ISQLiteDatabase> | null = null;
 
   /**
    * Creates an isolated in-memory database with migrations executed and seed data loaded.
@@ -75,39 +75,41 @@ export class DatabaseManager {
 
   /**
    * Initializes the database connection, runs migrations and populates seeds.
+   * Uses an in-flight promise mutex to prevent concurrent initialization collisions.
    */
   static async initialize(databaseName: string = 'planes_lectura.db'): Promise<ISQLiteDatabase> {
     if (DatabaseManager.instance) {
       return DatabaseManager.instance;
     }
 
-    const db = (await SQLite.openDatabaseAsync(databaseName)) as unknown as ISQLiteDatabase;
+    if (DatabaseManager.initPromise) {
+      return DatabaseManager.initPromise;
+    }
 
-    await db.execAsync('PRAGMA foreign_keys = ON;');
-    await runMigrations(db);
-    await DatabaseManager.seed(db);
+    DatabaseManager.initPromise = (async () => {
+      try {
+        const db = (await SQLite.openDatabaseAsync(databaseName)) as unknown as ISQLiteDatabase;
 
-    DatabaseManager.instance = db;
-
-    // Seed Bible in the background with batch inserts so the app launches immediately
-    if (databaseName !== ':memory:' && !DatabaseManager.bibleSeedPromise) {
-      DatabaseManager.bibleSeedPromise = DatabaseManager.seedBible(db).catch((err) => {
-        if (!err?.message?.includes('not open')) {
-          console.warn('Background Bible seeding error:', err);
+        // Enable Write-Ahead Logging and 10s busy timeout to eliminate "database is locked" errors
+        if (databaseName !== ':memory:') {
+          await db.execAsync('PRAGMA journal_mode = WAL;');
+          await db.execAsync('PRAGMA busy_timeout = 10000;');
         }
-      });
-    }
+        await db.execAsync('PRAGMA foreign_keys = ON;');
 
-    return db;
-  }
+        await runMigrations(db);
+        await DatabaseManager.seed(db);
+        await DatabaseManager.seedBible(db);
 
-  /**
-   * Waits for Bible background seeding to finish if in progress.
-   */
-  static async waitForBibleSeed(): Promise<void> {
-    if (DatabaseManager.bibleSeedPromise) {
-      await DatabaseManager.bibleSeedPromise;
-    }
+        DatabaseManager.instance = db;
+        return db;
+      } catch (error) {
+        DatabaseManager.initPromise = null;
+        throw error;
+      }
+    })();
+
+    return DatabaseManager.initPromise;
   }
 
   /**
@@ -128,7 +130,7 @@ export class DatabaseManager {
     const data: Record<string, string[][]> =
       bibleData || require('../../../assets/data/bible/rvr1960.json');
 
-    const BATCH_SIZE = 100;
+    const BATCH_SIZE = 200;
     const rows: Array<[string, number, number, string]> = [];
 
     for (const [bookId, chapters] of Object.entries(data)) {
@@ -162,10 +164,10 @@ export class DatabaseManager {
    * Returns the initialized database singleton.
    */
   static async getDatabase(databaseName: string = 'planes_lectura.db'): Promise<ISQLiteDatabase> {
-    if (!DatabaseManager.instance) {
-      await DatabaseManager.initialize(databaseName);
+    if (DatabaseManager.instance) {
+      return DatabaseManager.instance;
     }
-    return DatabaseManager.instance!;
+    return DatabaseManager.initialize(databaseName);
   }
 
   /**
@@ -175,8 +177,8 @@ export class DatabaseManager {
     if (DatabaseManager.instance) {
       await DatabaseManager.instance.closeAsync();
       DatabaseManager.instance = null;
-      DatabaseManager.bibleSeedPromise = null;
     }
+    DatabaseManager.initPromise = null;
   }
 
   /**
