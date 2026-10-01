@@ -87,6 +87,27 @@ export interface ParsedCitation {
 }
 
 export class CitationParser {
+  static hasKnownBookPrefix(rawCitation: string): boolean {
+    const cleaned = rawCitation
+      .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (/escritura favorita/i.test(cleaned)) {
+      return true;
+    }
+
+    for (const book of BIBLE_BOOKS) {
+      for (const alias of book.aliases) {
+        const regex = new RegExp(`^${alias}(?:\\s+|\\d|$)`, 'i');
+        if (regex.test(cleaned)) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
   static parse(rawCitation: string): ParsedCitation {
     const cleaned = rawCitation
       .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')

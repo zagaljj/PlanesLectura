@@ -283,7 +283,10 @@ export class AnnualPlanParser {
           const normalized = cleaned.toLowerCase().replace(/\s+/g, '');
           if (!SPANISH_MONTHS.includes(normalized)) {
             const list = monthDays.get(currentDayNum) || [];
-            if (list.length > 0) {
+            if (CitationParser.hasKnownBookPrefix(cleaned)) {
+              // Unbulleted secondary reading (e.g. September 19: "Salmo 137" following "Esdras 4-6")
+              list.push(cleaned);
+            } else if (list.length > 0) {
               list[list.length - 1] += ' ' + cleaned;
             } else {
               list.push(cleaned);

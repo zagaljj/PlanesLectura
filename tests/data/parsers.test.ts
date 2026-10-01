@@ -31,6 +31,17 @@ describe('PDF Ingestion Parsers', () => {
     expect(day121.readings[1].bookId).toBe('1CH');
     expect(day121.readings[1].citationLabel).toBe('1 Crónicas 11-12');
 
+    // Verify Day 262 (September 19) preserves unbulleted secondary reading (Esdras 4-6 and Salmo 137)
+    const day262 = result.days[261];
+    expect(day262.dayNumber).toBe(262);
+    expect(day262.month).toBe(9);
+    expect(day262.dayOfMonth).toBe(19);
+    expect(day262.readings).toHaveLength(2);
+    expect(day262.readings[0].bookId).toBe('EZR');
+    expect(day262.readings[0].citationLabel).toBe('Esdras 4-6');
+    expect(day262.readings[1].bookId).toBe('PSA');
+    expect(day262.readings[1].citationLabel).toBe('Salmo 137');
+
     // Verify zero readings fell back to GEN when citation was not Genesis
     const invalidGenFallbacks = result.days.flatMap(d =>
       d.readings.filter(

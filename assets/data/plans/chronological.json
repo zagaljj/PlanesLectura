@@ -5402,7 +5402,17 @@
           "bookName": "Esdras",
           "startChapter": 4,
           "endChapter": 6,
-          "citationLabel": "Esdras 4-6 Salmo 137"
+          "citationLabel": "Esdras 4-6"
+        },
+        {
+          "id": "chronological-day-262-reading-1",
+          "dayId": "chronological-day-262",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 137,
+          "endChapter": 137,
+          "citationLabel": "Salmo 137"
         }
       ]
     },
