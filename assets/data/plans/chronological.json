@@ -1,0 +1,7531 @@
+{
+  "plan": {
+    "id": "chronological",
+    "title": "Programa Cronológico de Lectura de la Biblia",
+    "description": "Este programa cronológico de lectura de la Biblia lo lleva a través de la Biblia en el orden que se ciñe más cercanamente a la línea de tiempo en que los eventos ocurrieron, comenzando con el evento más temprano de todos —la creación.",
+    "archetype": "annual",
+    "totalDays": 365,
+    "isFeatured": true
+  },
+  "days": [
+    {
+      "id": "chronological-day-1",
+      "planId": "chronological",
+      "dayNumber": 1,
+      "month": 1,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-1-reading-0",
+          "dayId": "chronological-day-1",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Génesis 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-2",
+      "planId": "chronological",
+      "dayNumber": 2,
+      "month": 1,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-2-reading-0",
+          "dayId": "chronological-day-2",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 4,
+          "endChapter": 7,
+          "citationLabel": "Génesis 4-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-3",
+      "planId": "chronological",
+      "dayNumber": 3,
+      "month": 1,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-3-reading-0",
+          "dayId": "chronological-day-3",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 8,
+          "endChapter": 11,
+          "citationLabel": "Génesis 8-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-4",
+      "planId": "chronological",
+      "dayNumber": 4,
+      "month": 1,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-4-reading-0",
+          "dayId": "chronological-day-4",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Job 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-5",
+      "planId": "chronological",
+      "dayNumber": 5,
+      "month": 1,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-5-reading-0",
+          "dayId": "chronological-day-5",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 6,
+          "endChapter": 9,
+          "citationLabel": "Job 6-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-6",
+      "planId": "chronological",
+      "dayNumber": 6,
+      "month": 1,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-6-reading-0",
+          "dayId": "chronological-day-6",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 10,
+          "endChapter": 13,
+          "citationLabel": "Job 10-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-7",
+      "planId": "chronological",
+      "dayNumber": 7,
+      "month": 1,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-7-reading-0",
+          "dayId": "chronological-day-7",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 14,
+          "endChapter": 16,
+          "citationLabel": "Job 14-16"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-8",
+      "planId": "chronological",
+      "dayNumber": 8,
+      "month": 1,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-8-reading-0",
+          "dayId": "chronological-day-8",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 17,
+          "endChapter": 20,
+          "citationLabel": "Job 17-20"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-9",
+      "planId": "chronological",
+      "dayNumber": 9,
+      "month": 1,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-9-reading-0",
+          "dayId": "chronological-day-9",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 21,
+          "endChapter": 23,
+          "citationLabel": "Job 21-23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-10",
+      "planId": "chronological",
+      "dayNumber": 10,
+      "month": 1,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-10-reading-0",
+          "dayId": "chronological-day-10",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 24,
+          "endChapter": 28,
+          "citationLabel": "Job 24-28"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-11",
+      "planId": "chronological",
+      "dayNumber": 11,
+      "month": 1,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-11-reading-0",
+          "dayId": "chronological-day-11",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 29,
+          "endChapter": 31,
+          "citationLabel": "Job 29-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-12",
+      "planId": "chronological",
+      "dayNumber": 12,
+      "month": 1,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-12-reading-0",
+          "dayId": "chronological-day-12",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 32,
+          "endChapter": 34,
+          "citationLabel": "Job 32-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-13",
+      "planId": "chronological",
+      "dayNumber": 13,
+      "month": 1,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-13-reading-0",
+          "dayId": "chronological-day-13",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 35,
+          "endChapter": 37,
+          "citationLabel": "Job 35-37"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-14",
+      "planId": "chronological",
+      "dayNumber": 14,
+      "month": 1,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-14-reading-0",
+          "dayId": "chronological-day-14",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 38,
+          "endChapter": 39,
+          "citationLabel": "Job 38-39"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-15",
+      "planId": "chronological",
+      "dayNumber": 15,
+      "month": 1,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-15-reading-0",
+          "dayId": "chronological-day-15",
+          "orderIndex": 0,
+          "bookId": "JOB",
+          "bookName": "Job",
+          "startChapter": 40,
+          "endChapter": 42,
+          "citationLabel": "Job 40-42"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-16",
+      "planId": "chronological",
+      "dayNumber": 16,
+      "month": 1,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-16-reading-0",
+          "dayId": "chronological-day-16",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 12,
+          "endChapter": 15,
+          "citationLabel": "Génesis 12-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-17",
+      "planId": "chronological",
+      "dayNumber": 17,
+      "month": 1,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-17-reading-0",
+          "dayId": "chronological-day-17",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Génesis 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-18",
+      "planId": "chronological",
+      "dayNumber": 18,
+      "month": 1,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-18-reading-0",
+          "dayId": "chronological-day-18",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Génesis 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-19",
+      "planId": "chronological",
+      "dayNumber": 19,
+      "month": 1,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-19-reading-0",
+          "dayId": "chronological-day-19",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 22,
+          "endChapter": 24,
+          "citationLabel": "Génesis 22-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-20",
+      "planId": "chronological",
+      "dayNumber": 20,
+      "month": 1,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-20-reading-0",
+          "dayId": "chronological-day-20",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 25,
+          "endChapter": 26,
+          "citationLabel": "Génesis 25-26"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-21",
+      "planId": "chronological",
+      "dayNumber": 21,
+      "month": 1,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-21-reading-0",
+          "dayId": "chronological-day-21",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 27,
+          "endChapter": 29,
+          "citationLabel": "Génesis 27-29"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-22",
+      "planId": "chronological",
+      "dayNumber": 22,
+      "month": 1,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-22-reading-0",
+          "dayId": "chronological-day-22",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 30,
+          "endChapter": 31,
+          "citationLabel": "Génesis 30-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-23",
+      "planId": "chronological",
+      "dayNumber": 23,
+      "month": 1,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-23-reading-0",
+          "dayId": "chronological-day-23",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 32,
+          "endChapter": 34,
+          "citationLabel": "Génesis 32-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-24",
+      "planId": "chronological",
+      "dayNumber": 24,
+      "month": 1,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-24-reading-0",
+          "dayId": "chronological-day-24",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 35,
+          "endChapter": 37,
+          "citationLabel": "Génesis 35-37"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-25",
+      "planId": "chronological",
+      "dayNumber": 25,
+      "month": 1,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-25-reading-0",
+          "dayId": "chronological-day-25",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 38,
+          "endChapter": 40,
+          "citationLabel": "Génesis 38-40"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-26",
+      "planId": "chronological",
+      "dayNumber": 26,
+      "month": 1,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-26-reading-0",
+          "dayId": "chronological-day-26",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 41,
+          "endChapter": 42,
+          "citationLabel": "Génesis 41-42"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-27",
+      "planId": "chronological",
+      "dayNumber": 27,
+      "month": 1,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-27-reading-0",
+          "dayId": "chronological-day-27",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 43,
+          "endChapter": 45,
+          "citationLabel": "Génesis 43-45"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-28",
+      "planId": "chronological",
+      "dayNumber": 28,
+      "month": 1,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-28-reading-0",
+          "dayId": "chronological-day-28",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 46,
+          "endChapter": 47,
+          "citationLabel": "Génesis 46-47"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-29",
+      "planId": "chronological",
+      "dayNumber": 29,
+      "month": 1,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-29-reading-0",
+          "dayId": "chronological-day-29",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 48,
+          "endChapter": 50,
+          "citationLabel": "Génesis 48-50"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-30",
+      "planId": "chronological",
+      "dayNumber": 30,
+      "month": 1,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-30-reading-0",
+          "dayId": "chronological-day-30",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Éxodo 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-31",
+      "planId": "chronological",
+      "dayNumber": 31,
+      "month": 1,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-31-reading-0",
+          "dayId": "chronological-day-31",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Éxodo 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-32",
+      "planId": "chronological",
+      "dayNumber": 32,
+      "month": 2,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-32-reading-0",
+          "dayId": "chronological-day-32",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 7,
+          "endChapter": 9,
+          "citationLabel": "Éxodo 7-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-33",
+      "planId": "chronological",
+      "dayNumber": 33,
+      "month": 2,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-33-reading-0",
+          "dayId": "chronological-day-33",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 10,
+          "endChapter": 12,
+          "citationLabel": "Éxodo 10-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-34",
+      "planId": "chronological",
+      "dayNumber": 34,
+      "month": 2,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-34-reading-0",
+          "dayId": "chronological-day-34",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 13,
+          "endChapter": 15,
+          "citationLabel": "Éxodo 13-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-35",
+      "planId": "chronological",
+      "dayNumber": 35,
+      "month": 2,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-35-reading-0",
+          "dayId": "chronological-day-35",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Éxodo 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-36",
+      "planId": "chronological",
+      "dayNumber": 36,
+      "month": 2,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-36-reading-0",
+          "dayId": "chronological-day-36",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Éxodo 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-37",
+      "planId": "chronological",
+      "dayNumber": 37,
+      "month": 2,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-37-reading-0",
+          "dayId": "chronological-day-37",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 22,
+          "endChapter": 24,
+          "citationLabel": "Éxodo 22-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-38",
+      "planId": "chronological",
+      "dayNumber": 38,
+      "month": 2,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-38-reading-0",
+          "dayId": "chronological-day-38",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 25,
+          "endChapter": 27,
+          "citationLabel": "Éxodo 25-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-39",
+      "planId": "chronological",
+      "dayNumber": 39,
+      "month": 2,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-39-reading-0",
+          "dayId": "chronological-day-39",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 28,
+          "endChapter": 29,
+          "citationLabel": "Éxodo 28-29"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-40",
+      "planId": "chronological",
+      "dayNumber": 40,
+      "month": 2,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-40-reading-0",
+          "dayId": "chronological-day-40",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 30,
+          "endChapter": 32,
+          "citationLabel": "Éxodo 30-32"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-41",
+      "planId": "chronological",
+      "dayNumber": 41,
+      "month": 2,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-41-reading-0",
+          "dayId": "chronological-day-41",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 33,
+          "endChapter": 35,
+          "citationLabel": "Éxodo 33-35"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-42",
+      "planId": "chronological",
+      "dayNumber": 42,
+      "month": 2,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-42-reading-0",
+          "dayId": "chronological-day-42",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 36,
+          "endChapter": 38,
+          "citationLabel": "Éxodo 36-38"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-43",
+      "planId": "chronological",
+      "dayNumber": 43,
+      "month": 2,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-43-reading-0",
+          "dayId": "chronological-day-43",
+          "orderIndex": 0,
+          "bookId": "EXO",
+          "bookName": "Éxodo",
+          "startChapter": 39,
+          "endChapter": 40,
+          "citationLabel": "Éxodo 39-40"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-44",
+      "planId": "chronological",
+      "dayNumber": 44,
+      "month": 2,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-44-reading-0",
+          "dayId": "chronological-day-44",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Levítico 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-45",
+      "planId": "chronological",
+      "dayNumber": 45,
+      "month": 2,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-45-reading-0",
+          "dayId": "chronological-day-45",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 5,
+          "endChapter": 7,
+          "citationLabel": "Levítico 5-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-46",
+      "planId": "chronological",
+      "dayNumber": 46,
+      "month": 2,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-46-reading-0",
+          "dayId": "chronological-day-46",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 8,
+          "endChapter": 10,
+          "citationLabel": "Levítico 8-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-47",
+      "planId": "chronological",
+      "dayNumber": 47,
+      "month": 2,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-47-reading-0",
+          "dayId": "chronological-day-47",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Levítico 11-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-48",
+      "planId": "chronological",
+      "dayNumber": 48,
+      "month": 2,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-48-reading-0",
+          "dayId": "chronological-day-48",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 14,
+          "endChapter": 15,
+          "citationLabel": "Levítico 14-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-49",
+      "planId": "chronological",
+      "dayNumber": 49,
+      "month": 2,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-49-reading-0",
+          "dayId": "chronological-day-49",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Levítico 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-50",
+      "planId": "chronological",
+      "dayNumber": 50,
+      "month": 2,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-50-reading-0",
+          "dayId": "chronological-day-50",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Levítico 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-51",
+      "planId": "chronological",
+      "dayNumber": 51,
+      "month": 2,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-51-reading-0",
+          "dayId": "chronological-day-51",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 22,
+          "endChapter": 23,
+          "citationLabel": "Levítico 22-23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-52",
+      "planId": "chronological",
+      "dayNumber": 52,
+      "month": 2,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-52-reading-0",
+          "dayId": "chronological-day-52",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 24,
+          "endChapter": 25,
+          "citationLabel": "Levítico 24-25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-53",
+      "planId": "chronological",
+      "dayNumber": 53,
+      "month": 2,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-53-reading-0",
+          "dayId": "chronological-day-53",
+          "orderIndex": 0,
+          "bookId": "LEV",
+          "bookName": "Levítico",
+          "startChapter": 26,
+          "endChapter": 27,
+          "citationLabel": "Levítico 26-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-54",
+      "planId": "chronological",
+      "dayNumber": 54,
+      "month": 2,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-54-reading-0",
+          "dayId": "chronological-day-54",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "Números 1-2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-55",
+      "planId": "chronological",
+      "dayNumber": 55,
+      "month": 2,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-55-reading-0",
+          "dayId": "chronological-day-55",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 3,
+          "endChapter": 4,
+          "citationLabel": "Números 3-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-56",
+      "planId": "chronological",
+      "dayNumber": 56,
+      "month": 2,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-56-reading-0",
+          "dayId": "chronological-day-56",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 5,
+          "endChapter": 6,
+          "citationLabel": "Números 5-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-57",
+      "planId": "chronological",
+      "dayNumber": 57,
+      "month": 2,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-57-reading-0",
+          "dayId": "chronological-day-57",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 7,
+          "endChapter": 7,
+          "citationLabel": "Números 7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-58",
+      "planId": "chronological",
+      "dayNumber": 58,
+      "month": 2,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-58-reading-0",
+          "dayId": "chronological-day-58",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 8,
+          "endChapter": 10,
+          "citationLabel": "Números 8-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-59",
+      "planId": "chronological",
+      "dayNumber": 59,
+      "month": 2,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-59-reading-0",
+          "dayId": "chronological-day-59",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Números 11-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-60",
+      "planId": "chronological",
+      "dayNumber": 60,
+      "month": 3,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-60-reading-0",
+          "dayId": "chronological-day-60",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 14,
+          "endChapter": 15,
+          "citationLabel": "Números 14-15"
+        },
+        {
+          "id": "chronological-day-60-reading-1",
+          "dayId": "chronological-day-60",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 90,
+          "endChapter": 90,
+          "citationLabel": "Salmo 90"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-61",
+      "planId": "chronological",
+      "dayNumber": 61,
+      "month": 3,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-61-reading-0",
+          "dayId": "chronological-day-61",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 16,
+          "endChapter": 17,
+          "citationLabel": "Números 16-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-62",
+      "planId": "chronological",
+      "dayNumber": 62,
+      "month": 3,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-62-reading-0",
+          "dayId": "chronological-day-62",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 18,
+          "endChapter": 20,
+          "citationLabel": "Números 18-20"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-63",
+      "planId": "chronological",
+      "dayNumber": 63,
+      "month": 3,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-63-reading-0",
+          "dayId": "chronological-day-63",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 21,
+          "endChapter": 22,
+          "citationLabel": "Números 21-22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-64",
+      "planId": "chronological",
+      "dayNumber": 64,
+      "month": 3,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-64-reading-0",
+          "dayId": "chronological-day-64",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 23,
+          "endChapter": 25,
+          "citationLabel": "Números 23-25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-65",
+      "planId": "chronological",
+      "dayNumber": 65,
+      "month": 3,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-65-reading-0",
+          "dayId": "chronological-day-65",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 26,
+          "endChapter": 27,
+          "citationLabel": "Números 26-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-66",
+      "planId": "chronological",
+      "dayNumber": 66,
+      "month": 3,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-66-reading-0",
+          "dayId": "chronological-day-66",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 28,
+          "endChapter": 30,
+          "citationLabel": "Números 28-30"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-67",
+      "planId": "chronological",
+      "dayNumber": 67,
+      "month": 3,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-67-reading-0",
+          "dayId": "chronological-day-67",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 31,
+          "endChapter": 32,
+          "citationLabel": "Números 31-32"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-68",
+      "planId": "chronological",
+      "dayNumber": 68,
+      "month": 3,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-68-reading-0",
+          "dayId": "chronological-day-68",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 33,
+          "endChapter": 34,
+          "citationLabel": "Números 33-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-69",
+      "planId": "chronological",
+      "dayNumber": 69,
+      "month": 3,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-69-reading-0",
+          "dayId": "chronological-day-69",
+          "orderIndex": 0,
+          "bookId": "NUM",
+          "bookName": "Números",
+          "startChapter": 35,
+          "endChapter": 36,
+          "citationLabel": "Números 35-36"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-70",
+      "planId": "chronological",
+      "dayNumber": 70,
+      "month": 3,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-70-reading-0",
+          "dayId": "chronological-day-70",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "Deuteronomio 1-2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-71",
+      "planId": "chronological",
+      "dayNumber": 71,
+      "month": 3,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-71-reading-0",
+          "dayId": "chronological-day-71",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 3,
+          "endChapter": 4,
+          "citationLabel": "Deuteronomio 3-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-72",
+      "planId": "chronological",
+      "dayNumber": 72,
+      "month": 3,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-72-reading-0",
+          "dayId": "chronological-day-72",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 5,
+          "endChapter": 7,
+          "citationLabel": "Deuteronomio 5-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-73",
+      "planId": "chronological",
+      "dayNumber": 73,
+      "month": 3,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-73-reading-0",
+          "dayId": "chronological-day-73",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 8,
+          "endChapter": 10,
+          "citationLabel": "Deuteronomio 8-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-74",
+      "planId": "chronological",
+      "dayNumber": 74,
+      "month": 3,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-74-reading-0",
+          "dayId": "chronological-day-74",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Deuteronomio 11-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-75",
+      "planId": "chronological",
+      "dayNumber": 75,
+      "month": 3,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-75-reading-0",
+          "dayId": "chronological-day-75",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 14,
+          "endChapter": 16,
+          "citationLabel": "Deuteronomio 14- 16"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-76",
+      "planId": "chronological",
+      "dayNumber": 76,
+      "month": 3,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-76-reading-0",
+          "dayId": "chronological-day-76",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 17,
+          "endChapter": 20,
+          "citationLabel": "Deuteronomio 17- 20"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-77",
+      "planId": "chronological",
+      "dayNumber": 77,
+      "month": 3,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-77-reading-0",
+          "dayId": "chronological-day-77",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 21,
+          "endChapter": 23,
+          "citationLabel": "Deuteronomio 21- 23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-78",
+      "planId": "chronological",
+      "dayNumber": 78,
+      "month": 3,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-78-reading-0",
+          "dayId": "chronological-day-78",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 24,
+          "endChapter": 27,
+          "citationLabel": "Deuteronomio 24-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-79",
+      "planId": "chronological",
+      "dayNumber": 79,
+      "month": 3,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-79-reading-0",
+          "dayId": "chronological-day-79",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 28,
+          "endChapter": 29,
+          "citationLabel": "Deuteronomio 28-29"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-80",
+      "planId": "chronological",
+      "dayNumber": 80,
+      "month": 3,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-80-reading-0",
+          "dayId": "chronological-day-80",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 30,
+          "endChapter": 31,
+          "citationLabel": "Deuteronomio 30-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-81",
+      "planId": "chronological",
+      "dayNumber": 81,
+      "month": 3,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-81-reading-0",
+          "dayId": "chronological-day-81",
+          "orderIndex": 0,
+          "bookId": "DEU",
+          "bookName": "Deuteronomio",
+          "startChapter": 32,
+          "endChapter": 34,
+          "citationLabel": "Deuteronomio 32-34"
+        },
+        {
+          "id": "chronological-day-81-reading-1",
+          "dayId": "chronological-day-81",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 91,
+          "endChapter": 91,
+          "citationLabel": "Salmo 91"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-82",
+      "planId": "chronological",
+      "dayNumber": 82,
+      "month": 3,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-82-reading-0",
+          "dayId": "chronological-day-82",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Josué 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-83",
+      "planId": "chronological",
+      "dayNumber": 83,
+      "month": 3,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-83-reading-0",
+          "dayId": "chronological-day-83",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 5,
+          "endChapter": 8,
+          "citationLabel": "Josué 5-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-84",
+      "planId": "chronological",
+      "dayNumber": 84,
+      "month": 3,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-84-reading-0",
+          "dayId": "chronological-day-84",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 9,
+          "endChapter": 11,
+          "citationLabel": "Josué 9-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-85",
+      "planId": "chronological",
+      "dayNumber": 85,
+      "month": 3,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-85-reading-0",
+          "dayId": "chronological-day-85",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 12,
+          "endChapter": 15,
+          "citationLabel": "Josué 12-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-86",
+      "planId": "chronological",
+      "dayNumber": 86,
+      "month": 3,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-86-reading-0",
+          "dayId": "chronological-day-86",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Josué 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-87",
+      "planId": "chronological",
+      "dayNumber": 87,
+      "month": 3,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-87-reading-0",
+          "dayId": "chronological-day-87",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Josué 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-88",
+      "planId": "chronological",
+      "dayNumber": 88,
+      "month": 3,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-88-reading-0",
+          "dayId": "chronological-day-88",
+          "orderIndex": 0,
+          "bookId": "JOS",
+          "bookName": "Josué",
+          "startChapter": 22,
+          "endChapter": 24,
+          "citationLabel": "Josué 22-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-89",
+      "planId": "chronological",
+      "dayNumber": 89,
+      "month": 3,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-89-reading-0",
+          "dayId": "chronological-day-89",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "Jueces 1-2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-90",
+      "planId": "chronological",
+      "dayNumber": 90,
+      "month": 3,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-90-reading-0",
+          "dayId": "chronological-day-90",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 3,
+          "endChapter": 5,
+          "citationLabel": "Jueces 3-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-91",
+      "planId": "chronological",
+      "dayNumber": 91,
+      "month": 4,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-91-reading-0",
+          "dayId": "chronological-day-91",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 6,
+          "endChapter": 7,
+          "citationLabel": "Jueces 6-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-92",
+      "planId": "chronological",
+      "dayNumber": 92,
+      "month": 4,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-92-reading-0",
+          "dayId": "chronological-day-92",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 8,
+          "endChapter": 9,
+          "citationLabel": "Jueces 8-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-93",
+      "planId": "chronological",
+      "dayNumber": 93,
+      "month": 4,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-93-reading-0",
+          "dayId": "chronological-day-93",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 10,
+          "endChapter": 12,
+          "citationLabel": "Jueces 10-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-94",
+      "planId": "chronological",
+      "dayNumber": 94,
+      "month": 4,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-94-reading-0",
+          "dayId": "chronological-day-94",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 13,
+          "endChapter": 15,
+          "citationLabel": "Jueces 13-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-95",
+      "planId": "chronological",
+      "dayNumber": 95,
+      "month": 4,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-95-reading-0",
+          "dayId": "chronological-day-95",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Jueces 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-96",
+      "planId": "chronological",
+      "dayNumber": 96,
+      "month": 4,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-96-reading-0",
+          "dayId": "chronological-day-96",
+          "orderIndex": 0,
+          "bookId": "JDG",
+          "bookName": "Jueces",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Jueces 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-97",
+      "planId": "chronological",
+      "dayNumber": 97,
+      "month": 4,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-97-reading-0",
+          "dayId": "chronological-day-97",
+          "orderIndex": 0,
+          "bookId": "RUT",
+          "bookName": "Rut",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Rut 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-98",
+      "planId": "chronological",
+      "dayNumber": 98,
+      "month": 4,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-98-reading-0",
+          "dayId": "chronological-day-98",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "1 Samuel 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-99",
+      "planId": "chronological",
+      "dayNumber": 99,
+      "month": 4,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-99-reading-0",
+          "dayId": "chronological-day-99",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 4,
+          "endChapter": 8,
+          "citationLabel": "1 Samuel 4-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-100",
+      "planId": "chronological",
+      "dayNumber": 100,
+      "month": 4,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-100-reading-0",
+          "dayId": "chronological-day-100",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 9,
+          "endChapter": 12,
+          "citationLabel": "1 Samuel 9-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-101",
+      "planId": "chronological",
+      "dayNumber": 101,
+      "month": 4,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-101-reading-0",
+          "dayId": "chronological-day-101",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 13,
+          "endChapter": 14,
+          "citationLabel": "1 Samuel 13-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-102",
+      "planId": "chronological",
+      "dayNumber": 102,
+      "month": 4,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-102-reading-0",
+          "dayId": "chronological-day-102",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 15,
+          "endChapter": 17,
+          "citationLabel": "1 Samuel 15-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-103",
+      "planId": "chronological",
+      "dayNumber": 103,
+      "month": 4,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-103-reading-0",
+          "dayId": "chronological-day-103",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 18,
+          "endChapter": 20,
+          "citationLabel": "1 Samuel 18-20"
+        },
+        {
+          "id": "chronological-day-103-reading-1",
+          "dayId": "chronological-day-103",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 11,
+          "endChapter": 59,
+          "citationLabel": "Salmos 11, 59"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-104",
+      "planId": "chronological",
+      "dayNumber": 104,
+      "month": 4,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-104-reading-0",
+          "dayId": "chronological-day-104",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 21,
+          "endChapter": 24,
+          "citationLabel": "1 Samuel 21-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-105",
+      "planId": "chronological",
+      "dayNumber": 105,
+      "month": 4,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-105-reading-0",
+          "dayId": "chronological-day-105",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 7,
+          "endChapter": 52,
+          "citationLabel": "Salmos 7, 27, 31, 34, 52"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-106",
+      "planId": "chronological",
+      "dayNumber": 106,
+      "month": 4,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-106-reading-0",
+          "dayId": "chronological-day-106",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 56,
+          "endChapter": 142,
+          "citationLabel": "Salmos 56, 120, 140-142"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-107",
+      "planId": "chronological",
+      "dayNumber": 107,
+      "month": 4,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-107-reading-0",
+          "dayId": "chronological-day-107",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 25,
+          "endChapter": 27,
+          "citationLabel": "1 Samuel 25-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-108",
+      "planId": "chronological",
+      "dayNumber": 108,
+      "month": 4,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-108-reading-0",
+          "dayId": "chronological-day-108",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 17,
+          "endChapter": 63,
+          "citationLabel": "Salmos 17, 35, 54, 63"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-109",
+      "planId": "chronological",
+      "dayNumber": 109,
+      "month": 4,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-109-reading-0",
+          "dayId": "chronological-day-109",
+          "orderIndex": 0,
+          "bookId": "1SA",
+          "bookName": "1 Samuel",
+          "startChapter": 28,
+          "endChapter": 31,
+          "citationLabel": "1 Samuel 28-31"
+        },
+        {
+          "id": "chronological-day-109-reading-1",
+          "dayId": "chronological-day-109",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 18,
+          "endChapter": 18,
+          "citationLabel": "Salmo 18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-110",
+      "planId": "chronological",
+      "dayNumber": 110,
+      "month": 4,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-110-reading-0",
+          "dayId": "chronological-day-110",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 121,
+          "endChapter": 130,
+          "citationLabel": "Salmos 121, 123- 125, 128-130"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-111",
+      "planId": "chronological",
+      "dayNumber": 111,
+      "month": 4,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-111-reading-0",
+          "dayId": "chronological-day-111",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "2 Samuel 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-112",
+      "planId": "chronological",
+      "dayNumber": 112,
+      "month": 4,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-112-reading-0",
+          "dayId": "chronological-day-112",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 6,
+          "endChapter": 21,
+          "citationLabel": "Salmos 6, 8-10, 14, 16, 19, 21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-113",
+      "planId": "chronological",
+      "dayNumber": 113,
+      "month": 4,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-113-reading-0",
+          "dayId": "chronological-day-113",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "1 Crónicas 1-2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-114",
+      "planId": "chronological",
+      "dayNumber": 114,
+      "month": 4,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-114-reading-0",
+          "dayId": "chronological-day-114",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 43,
+          "endChapter": 45,
+          "citationLabel": "Salmos 43-45, 49, 84-85, 87"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-115",
+      "planId": "chronological",
+      "dayNumber": 115,
+      "month": 4,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-115-reading-0",
+          "dayId": "chronological-day-115",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 3,
+          "endChapter": 5,
+          "citationLabel": "1 Crónicas 3-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-116",
+      "planId": "chronological",
+      "dayNumber": 116,
+      "month": 4,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-116-reading-0",
+          "dayId": "chronological-day-116",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 73,
+          "endChapter": 78,
+          "citationLabel": "Salmos 73, 77-78"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-117",
+      "planId": "chronological",
+      "dayNumber": 117,
+      "month": 4,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-117-reading-0",
+          "dayId": "chronological-day-117",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 6,
+          "endChapter": 6,
+          "citationLabel": "1 Crónicas 6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-118",
+      "planId": "chronological",
+      "dayNumber": 118,
+      "month": 4,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-118-reading-0",
+          "dayId": "chronological-day-118",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 81,
+          "endChapter": 93,
+          "citationLabel": "Salmos 81, 88, 92-93"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-119",
+      "planId": "chronological",
+      "dayNumber": 119,
+      "month": 4,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-119-reading-0",
+          "dayId": "chronological-day-119",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 7,
+          "endChapter": 10,
+          "citationLabel": "1 Crónicas 7-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-120",
+      "planId": "chronological",
+      "dayNumber": 120,
+      "month": 4,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-120-reading-0",
+          "dayId": "chronological-day-120",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 102,
+          "endChapter": 104,
+          "citationLabel": "Salmos 102-104"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-121",
+      "planId": "chronological",
+      "dayNumber": 121,
+      "month": 5,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-121-reading-0",
+          "dayId": "chronological-day-121",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Crónicas 21-22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-122",
+      "planId": "chronological",
+      "dayNumber": 122,
+      "month": 5,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-122-reading-0",
+          "dayId": "chronological-day-122",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Crónicas 1"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-123",
+      "planId": "chronological",
+      "dayNumber": 123,
+      "month": 5,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-123-reading-0",
+          "dayId": "chronological-day-123",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 133,
+          "endChapter": 133,
+          "citationLabel": "Salmo 133"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-124",
+      "planId": "chronological",
+      "dayNumber": 124,
+      "month": 5,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-124-reading-0",
+          "dayId": "chronological-day-124",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 106,
+          "endChapter": 107,
+          "citationLabel": "Salmos 106-107"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-125",
+      "planId": "chronological",
+      "dayNumber": 125,
+      "month": 5,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-125-reading-0",
+          "dayId": "chronological-day-125",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 5,
+          "startVerse": 11,
+          "endChapter": 6,
+          "endVerse": 23,
+          "citationLabel": "2 Samuel 5:11-6:23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-126",
+      "planId": "chronological",
+      "dayNumber": 126,
+      "month": 5,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-126-reading-0",
+          "dayId": "chronological-day-126",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "Salmos 1-2, 15, 22- 24, 47, 68"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-127",
+      "planId": "chronological",
+      "dayNumber": 127,
+      "month": 5,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-127-reading-0",
+          "dayId": "chronological-day-127",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 89,
+          "endChapter": 132,
+          "citationLabel": "Salmos 89, 96, 100- 101, 105, 132"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-128",
+      "planId": "chronological",
+      "dayNumber": 128,
+      "month": 5,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-128-reading-0",
+          "dayId": "chronological-day-128",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 7,
+          "endChapter": 7,
+          "citationLabel": "2 Samuel 7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-129",
+      "planId": "chronological",
+      "dayNumber": 129,
+      "month": 5,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-129-reading-0",
+          "dayId": "chronological-day-129",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 25,
+          "endChapter": 39,
+          "citationLabel": "Salmos 25, 29, 33, 36, 39"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-130",
+      "planId": "chronological",
+      "dayNumber": 130,
+      "month": 5,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-130-reading-0",
+          "dayId": "chronological-day-130",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 8,
+          "endChapter": 9,
+          "citationLabel": "2 Samuel 8-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-131",
+      "planId": "chronological",
+      "dayNumber": 131,
+      "month": 5,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-131-reading-0",
+          "dayId": "chronological-day-131",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 50,
+          "endChapter": 75,
+          "citationLabel": "Salmos 50, 53, 60, 75"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-132",
+      "planId": "chronological",
+      "dayNumber": 132,
+      "month": 5,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-132-reading-0",
+          "dayId": "chronological-day-132",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 10,
+          "endChapter": 10,
+          "citationLabel": "2 Samuel 10"
+        },
+        {
+          "id": "chronological-day-132-reading-1",
+          "dayId": "chronological-day-132",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 20,
+          "endChapter": 20,
+          "citationLabel": "Salmo 20"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-133",
+      "planId": "chronological",
+      "dayNumber": 133,
+      "month": 5,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-133-reading-0",
+          "dayId": "chronological-day-133",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 65,
+          "endChapter": 67,
+          "citationLabel": "Salmos 65-67, 69-70"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-134",
+      "planId": "chronological",
+      "dayNumber": 134,
+      "month": 5,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-134-reading-0",
+          "dayId": "chronological-day-134",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 11,
+          "endChapter": 12,
+          "citationLabel": "2 Samuel 11-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-135",
+      "planId": "chronological",
+      "dayNumber": 135,
+      "month": 5,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-135-reading-0",
+          "dayId": "chronological-day-135",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 32,
+          "endChapter": 122,
+          "citationLabel": "Salmos 32, 51, 86, 122"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-136",
+      "planId": "chronological",
+      "dayNumber": 136,
+      "month": 5,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-136-reading-0",
+          "dayId": "chronological-day-136",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 13,
+          "endChapter": 15,
+          "citationLabel": "2 Samuel 13-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-137",
+      "planId": "chronological",
+      "dayNumber": 137,
+      "month": 5,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-137-reading-0",
+          "dayId": "chronological-day-137",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 3,
+          "endChapter": 4,
+          "citationLabel": "Salmos 3-4, 12-13, 28, 55"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-138",
+      "planId": "chronological",
+      "dayNumber": 138,
+      "month": 5,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-138-reading-0",
+          "dayId": "chronological-day-138",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "2 Samuel 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-139",
+      "planId": "chronological",
+      "dayNumber": 139,
+      "month": 5,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-139-reading-0",
+          "dayId": "chronological-day-139",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 26,
+          "endChapter": 64,
+          "citationLabel": "Salmos 26, 40, 58, 61-62, 64"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-140",
+      "planId": "chronological",
+      "dayNumber": 140,
+      "month": 5,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-140-reading-0",
+          "dayId": "chronological-day-140",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "2 Samuel 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-141",
+      "planId": "chronological",
+      "dayNumber": 141,
+      "month": 5,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-141-reading-0",
+          "dayId": "chronological-day-141",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 5,
+          "endChapter": 42,
+          "citationLabel": "Salmos 5, 38, 41-42"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-142",
+      "planId": "chronological",
+      "dayNumber": 142,
+      "month": 5,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-142-reading-0",
+          "dayId": "chronological-day-142",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 22,
+          "endChapter": 23,
+          "citationLabel": "2 Samuel 22-23"
+        },
+        {
+          "id": "chronological-day-142-reading-1",
+          "dayId": "chronological-day-142",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 57,
+          "endChapter": 57,
+          "citationLabel": "Salmo 57"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-143",
+      "planId": "chronological",
+      "dayNumber": 143,
+      "month": 5,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-143-reading-0",
+          "dayId": "chronological-day-143",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 95,
+          "endChapter": 99,
+          "citationLabel": "Salmos 95, 97-99"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-144",
+      "planId": "chronological",
+      "dayNumber": 144,
+      "month": 5,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-144-reading-0",
+          "dayId": "chronological-day-144",
+          "orderIndex": 0,
+          "bookId": "2SA",
+          "bookName": "2 Samuel",
+          "startChapter": 24,
+          "endChapter": 24,
+          "citationLabel": "2 Samuel 24"
+        },
+        {
+          "id": "chronological-day-144-reading-1",
+          "dayId": "chronological-day-144",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 30,
+          "endChapter": 30,
+          "citationLabel": "Salmo 30"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-145",
+      "planId": "chronological",
+      "dayNumber": 145,
+      "month": 5,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-145-reading-0",
+          "dayId": "chronological-day-145",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 108,
+          "endChapter": 110,
+          "citationLabel": "Salmos 108-110"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-146",
+      "planId": "chronological",
+      "dayNumber": 146,
+      "month": 5,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-146-reading-0",
+          "dayId": "chronological-day-146",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 23,
+          "endChapter": 25,
+          "citationLabel": "1 Crónicas 23-25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-147",
+      "planId": "chronological",
+      "dayNumber": 147,
+      "month": 5,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-147-reading-0",
+          "dayId": "chronological-day-147",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 131,
+          "endChapter": 145,
+          "citationLabel": "Salmos 131, 138- 139, 143-145"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-148",
+      "planId": "chronological",
+      "dayNumber": 148,
+      "month": 5,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-148-reading-0",
+          "dayId": "chronological-day-148",
+          "orderIndex": 0,
+          "bookId": "1CH",
+          "bookName": "1 Crónicas",
+          "startChapter": 26,
+          "endChapter": 29,
+          "citationLabel": "1 Crónicas 26-29"
+        },
+        {
+          "id": "chronological-day-148-reading-1",
+          "dayId": "chronological-day-148",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 127,
+          "endChapter": 127,
+          "citationLabel": "Salmo 127"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-149",
+      "planId": "chronological",
+      "dayNumber": 149,
+      "month": 5,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-149-reading-0",
+          "dayId": "chronological-day-149",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 111,
+          "endChapter": 118,
+          "citationLabel": "Salmos 111-118"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-150",
+      "planId": "chronological",
+      "dayNumber": 150,
+      "month": 5,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-150-reading-0",
+          "dayId": "chronological-day-150",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "1 Reyes 1-2"
+        },
+        {
+          "id": "chronological-day-150-reading-1",
+          "dayId": "chronological-day-150",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 37,
+          "endChapter": 94,
+          "citationLabel": "Salmos 37, 71, 94"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-151",
+      "planId": "chronological",
+      "dayNumber": 151,
+      "month": 5,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-151-reading-0",
+          "dayId": "chronological-day-151",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 3,
+          "endChapter": 4,
+          "citationLabel": "1 Reyes 3-4"
+        },
+        {
+          "id": "chronological-day-151-reading-1",
+          "dayId": "chronological-day-151",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 72,
+          "endChapter": 72,
+          "citationLabel": "Salmo 72"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-152",
+      "planId": "chronological",
+      "dayNumber": 152,
+      "month": 6,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-152-reading-0",
+          "dayId": "chronological-day-152",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 119,
+          "startVerse": 89,
+          "endChapter": 119,
+          "endVerse": 176,
+          "citationLabel": "Salmo 119:89-176"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-153",
+      "planId": "chronological",
+      "dayNumber": 153,
+      "month": 6,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-153-reading-0",
+          "dayId": "chronological-day-153",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Crónicas 18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-154",
+      "planId": "chronological",
+      "dayNumber": 154,
+      "month": 6,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-154-reading-0",
+          "dayId": "chronological-day-154",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Proverbios 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-155",
+      "planId": "chronological",
+      "dayNumber": 155,
+      "month": 6,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-155-reading-0",
+          "dayId": "chronological-day-155",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Proverbios 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-156",
+      "planId": "chronological",
+      "dayNumber": 156,
+      "month": 6,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-156-reading-0",
+          "dayId": "chronological-day-156",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 7,
+          "endChapter": 9,
+          "citationLabel": "Proverbios 7-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-157",
+      "planId": "chronological",
+      "dayNumber": 157,
+      "month": 6,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-157-reading-0",
+          "dayId": "chronological-day-157",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 10,
+          "endChapter": 12,
+          "citationLabel": "Proverbios 10-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-158",
+      "planId": "chronological",
+      "dayNumber": 158,
+      "month": 6,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-158-reading-0",
+          "dayId": "chronological-day-158",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 13,
+          "endChapter": 15,
+          "citationLabel": "Proverbios 13-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-159",
+      "planId": "chronological",
+      "dayNumber": 159,
+      "month": 6,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-159-reading-0",
+          "dayId": "chronological-day-159",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 16,
+          "endChapter": 18,
+          "citationLabel": "Proverbios 16-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-160",
+      "planId": "chronological",
+      "dayNumber": 160,
+      "month": 6,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-160-reading-0",
+          "dayId": "chronological-day-160",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 19,
+          "endChapter": 21,
+          "citationLabel": "Proverbios 19-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-161",
+      "planId": "chronological",
+      "dayNumber": 161,
+      "month": 6,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-161-reading-0",
+          "dayId": "chronological-day-161",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 22,
+          "endChapter": 24,
+          "citationLabel": "Proverbios 22-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-162",
+      "planId": "chronological",
+      "dayNumber": 162,
+      "month": 6,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-162-reading-0",
+          "dayId": "chronological-day-162",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 5,
+          "endChapter": 6,
+          "citationLabel": "1 Reyes 5-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-163",
+      "planId": "chronological",
+      "dayNumber": 163,
+      "month": 6,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-163-reading-0",
+          "dayId": "chronological-day-163",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 7,
+          "endChapter": 7,
+          "citationLabel": "1 Reyes 7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-164",
+      "planId": "chronological",
+      "dayNumber": 164,
+      "month": 6,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-164-reading-0",
+          "dayId": "chronological-day-164",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 8,
+          "endChapter": 8,
+          "citationLabel": "1 Reyes 8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-165",
+      "planId": "chronological",
+      "dayNumber": 165,
+      "month": 6,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-165-reading-0",
+          "dayId": "chronological-day-165",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 6,
+          "endChapter": 7,
+          "citationLabel": "2 Crónicas 6-7"
+        },
+        {
+          "id": "chronological-day-165-reading-1",
+          "dayId": "chronological-day-165",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 136,
+          "endChapter": 136,
+          "citationLabel": "Salmo 136"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-166",
+      "planId": "chronological",
+      "dayNumber": 166,
+      "month": 6,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-166-reading-0",
+          "dayId": "chronological-day-166",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 134,
+          "endChapter": 150,
+          "citationLabel": "Salmos 134, 146- 150"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-167",
+      "planId": "chronological",
+      "dayNumber": 167,
+      "month": 6,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-167-reading-0",
+          "dayId": "chronological-day-167",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 9,
+          "endChapter": 9,
+          "citationLabel": "1 Reyes 9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-168",
+      "planId": "chronological",
+      "dayNumber": 168,
+      "month": 6,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-168-reading-0",
+          "dayId": "chronological-day-168",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 25,
+          "endChapter": 26,
+          "citationLabel": "Proverbios 25-26"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-169",
+      "planId": "chronological",
+      "dayNumber": 169,
+      "month": 6,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-169-reading-0",
+          "dayId": "chronological-day-169",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 27,
+          "endChapter": 29,
+          "citationLabel": "Proverbios 27-29"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-170",
+      "planId": "chronological",
+      "dayNumber": 170,
+      "month": 6,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-170-reading-0",
+          "dayId": "chronological-day-170",
+          "orderIndex": 0,
+          "bookId": "ECC",
+          "bookName": "Eclesiastés",
+          "startChapter": 1,
+          "endChapter": 6,
+          "citationLabel": "Eclesiastés 1-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-171",
+      "planId": "chronological",
+      "dayNumber": 171,
+      "month": 6,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-171-reading-0",
+          "dayId": "chronological-day-171",
+          "orderIndex": 0,
+          "bookId": "ECC",
+          "bookName": "Eclesiastés",
+          "startChapter": 7,
+          "endChapter": 12,
+          "citationLabel": "Eclesiastés 7-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-172",
+      "planId": "chronological",
+      "dayNumber": 172,
+      "month": 6,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-172-reading-0",
+          "dayId": "chronological-day-172",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 10,
+          "endChapter": 11,
+          "citationLabel": "1 Reyes 10-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-173",
+      "planId": "chronological",
+      "dayNumber": 173,
+      "month": 6,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-173-reading-0",
+          "dayId": "chronological-day-173",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 30,
+          "endChapter": 31,
+          "citationLabel": "Proverbios 30-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-174",
+      "planId": "chronological",
+      "dayNumber": 174,
+      "month": 6,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-174-reading-0",
+          "dayId": "chronological-day-174",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 12,
+          "endChapter": 14,
+          "citationLabel": "1 Reyes 12-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-175",
+      "planId": "chronological",
+      "dayNumber": 175,
+      "month": 6,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-175-reading-0",
+          "dayId": "chronological-day-175",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 10,
+          "endChapter": 12,
+          "citationLabel": "2 Crónicas 10-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-176",
+      "planId": "chronological",
+      "dayNumber": 176,
+      "month": 6,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-176-reading-0",
+          "dayId": "chronological-day-176",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 15,
+          "startVerse": 1,
+          "endChapter": 15,
+          "endVerse": 24,
+          "citationLabel": "1 Reyes 15:1-24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-177",
+      "planId": "chronological",
+      "dayNumber": 177,
+      "month": 6,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-177-reading-0",
+          "dayId": "chronological-day-177",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 15,
+          "startVerse": 25,
+          "endChapter": 16,
+          "endVerse": 34,
+          "citationLabel": "1 Reyes 15:25-16:34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-178",
+      "planId": "chronological",
+      "dayNumber": 178,
+      "month": 6,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-178-reading-0",
+          "dayId": "chronological-day-178",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 17,
+          "endChapter": 19,
+          "citationLabel": "1 Reyes 17-19"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-179",
+      "planId": "chronological",
+      "dayNumber": 179,
+      "month": 6,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-179-reading-0",
+          "dayId": "chronological-day-179",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 20,
+          "endChapter": 21,
+          "citationLabel": "1 Reyes 20-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-180",
+      "planId": "chronological",
+      "dayNumber": 180,
+      "month": 6,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-180-reading-0",
+          "dayId": "chronological-day-180",
+          "orderIndex": 0,
+          "bookId": "1KI",
+          "bookName": "1 Reyes",
+          "startChapter": 22,
+          "endChapter": 22,
+          "citationLabel": "1 Reyes 22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-181",
+      "planId": "chronological",
+      "dayNumber": 181,
+      "month": 6,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-181-reading-0",
+          "dayId": "chronological-day-181",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 19,
+          "endChapter": 23,
+          "citationLabel": "2 Crónicas 19-23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-182",
+      "planId": "chronological",
+      "dayNumber": 182,
+      "month": 7,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-182-reading-0",
+          "dayId": "chronological-day-182",
+          "orderIndex": 0,
+          "bookId": "OBA",
+          "bookName": "Abdías",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Abdías 1"
+        },
+        {
+          "id": "chronological-day-182-reading-1",
+          "dayId": "chronological-day-182",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 82,
+          "endChapter": 83,
+          "citationLabel": "Salmos 82-83"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-183",
+      "planId": "chronological",
+      "dayNumber": 183,
+      "month": 7,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-183-reading-0",
+          "dayId": "chronological-day-183",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Crónicas 29-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-184",
+      "planId": "chronological",
+      "dayNumber": 184,
+      "month": 7,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-184-reading-0",
+          "dayId": "chronological-day-184",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 5,
+          "endChapter": 8,
+          "citationLabel": "2 Reyes 5-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-185",
+      "planId": "chronological",
+      "dayNumber": 185,
+      "month": 7,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-185-reading-0",
+          "dayId": "chronological-day-185",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 9,
+          "endChapter": 11,
+          "citationLabel": "2 Reyes 9-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-186",
+      "planId": "chronological",
+      "dayNumber": 186,
+      "month": 7,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-186-reading-0",
+          "dayId": "chronological-day-186",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 12,
+          "endChapter": 13,
+          "citationLabel": "2 Reyes 12-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-187",
+      "planId": "chronological",
+      "dayNumber": 187,
+      "month": 7,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-187-reading-0",
+          "dayId": "chronological-day-187",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 14,
+          "endChapter": 14,
+          "citationLabel": "2 Reyes 14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-188",
+      "planId": "chronological",
+      "dayNumber": 188,
+      "month": 7,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-188-reading-0",
+          "dayId": "chronological-day-188",
+          "orderIndex": 0,
+          "bookId": "JON",
+          "bookName": "Jonás",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Jonas 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-189",
+      "planId": "chronological",
+      "dayNumber": 189,
+      "month": 7,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-189-reading-0",
+          "dayId": "chronological-day-189",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 15,
+          "endChapter": 15,
+          "citationLabel": "2 Reyes 15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-190",
+      "planId": "chronological",
+      "dayNumber": 190,
+      "month": 7,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-190-reading-0",
+          "dayId": "chronological-day-190",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Isaías 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-191",
+      "planId": "chronological",
+      "dayNumber": 191,
+      "month": 7,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-191-reading-0",
+          "dayId": "chronological-day-191",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 5,
+          "endChapter": 8,
+          "citationLabel": "Isaías 5-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-192",
+      "planId": "chronological",
+      "dayNumber": 192,
+      "month": 7,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-192-reading-0",
+          "dayId": "chronological-day-192",
+          "orderIndex": 0,
+          "bookId": "AMO",
+          "bookName": "Amós",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Amós 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-193",
+      "planId": "chronological",
+      "dayNumber": 193,
+      "month": 7,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-193-reading-0",
+          "dayId": "chronological-day-193",
+          "orderIndex": 0,
+          "bookId": "AMO",
+          "bookName": "Amós",
+          "startChapter": 6,
+          "endChapter": 9,
+          "citationLabel": "Amós 6-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-194",
+      "planId": "chronological",
+      "dayNumber": 194,
+      "month": 7,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-194-reading-0",
+          "dayId": "chronological-day-194",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 27,
+          "endChapter": 27,
+          "citationLabel": "2 Crónicas 27"
+        },
+        {
+          "id": "chronological-day-194-reading-1",
+          "dayId": "chronological-day-194",
+          "orderIndex": 1,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 9,
+          "endChapter": 12,
+          "citationLabel": "Isaías 9-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-195",
+      "planId": "chronological",
+      "dayNumber": 195,
+      "month": 7,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-195-reading-0",
+          "dayId": "chronological-day-195",
+          "orderIndex": 0,
+          "bookId": "MIC",
+          "bookName": "Miqueas",
+          "startChapter": 1,
+          "endChapter": 7,
+          "citationLabel": "Miqueas 1-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-196",
+      "planId": "chronological",
+      "dayNumber": 196,
+      "month": 7,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-196-reading-0",
+          "dayId": "chronological-day-196",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 28,
+          "endChapter": 28,
+          "citationLabel": "2 Crónicas 28"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-197",
+      "planId": "chronological",
+      "dayNumber": 197,
+      "month": 7,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-197-reading-0",
+          "dayId": "chronological-day-197",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 13,
+          "endChapter": 17,
+          "citationLabel": "Isaías 13-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-198",
+      "planId": "chronological",
+      "dayNumber": 198,
+      "month": 7,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-198-reading-0",
+          "dayId": "chronological-day-198",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 18,
+          "endChapter": 22,
+          "citationLabel": "Isaías 18-22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-199",
+      "planId": "chronological",
+      "dayNumber": 199,
+      "month": 7,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-199-reading-0",
+          "dayId": "chronological-day-199",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 23,
+          "endChapter": 27,
+          "citationLabel": "Isaías 23-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-200",
+      "planId": "chronological",
+      "dayNumber": 200,
+      "month": 7,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-200-reading-0",
+          "dayId": "chronological-day-200",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 18,
+          "startVerse": 1,
+          "endChapter": 18,
+          "endVerse": 8,
+          "citationLabel": "2 Reyes 18:1-8"
+        },
+        {
+          "id": "chronological-day-200-reading-1",
+          "dayId": "chronological-day-200",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 48,
+          "endChapter": 48,
+          "citationLabel": "Salmo 48"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-201",
+      "planId": "chronological",
+      "dayNumber": 201,
+      "month": 7,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-201-reading-0",
+          "dayId": "chronological-day-201",
+          "orderIndex": 0,
+          "bookId": "HOS",
+          "bookName": "Oseas",
+          "startChapter": 1,
+          "endChapter": 7,
+          "citationLabel": "Oseas 1-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-202",
+      "planId": "chronological",
+      "dayNumber": 202,
+      "month": 7,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-202-reading-0",
+          "dayId": "chronological-day-202",
+          "orderIndex": 0,
+          "bookId": "HOS",
+          "bookName": "Oseas",
+          "startChapter": 8,
+          "endChapter": 14,
+          "citationLabel": "Oseas 8-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-203",
+      "planId": "chronological",
+      "dayNumber": 203,
+      "month": 7,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-203-reading-0",
+          "dayId": "chronological-day-203",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 28,
+          "endChapter": 30,
+          "citationLabel": "Isaías 28-30"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-204",
+      "planId": "chronological",
+      "dayNumber": 204,
+      "month": 7,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-204-reading-0",
+          "dayId": "chronological-day-204",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 31,
+          "endChapter": 34,
+          "citationLabel": "Isaías 31-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-205",
+      "planId": "chronological",
+      "dayNumber": 205,
+      "month": 7,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-205-reading-0",
+          "dayId": "chronological-day-205",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 35,
+          "endChapter": 36,
+          "citationLabel": "Isaías 35-36"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-206",
+      "planId": "chronological",
+      "dayNumber": 206,
+      "month": 7,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-206-reading-0",
+          "dayId": "chronological-day-206",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 37,
+          "endChapter": 39,
+          "citationLabel": "Isaías 37-39"
+        },
+        {
+          "id": "chronological-day-206-reading-1",
+          "dayId": "chronological-day-206",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 76,
+          "endChapter": 76,
+          "citationLabel": "Salmo 76"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-207",
+      "planId": "chronological",
+      "dayNumber": 207,
+      "month": 7,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-207-reading-0",
+          "dayId": "chronological-day-207",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 40,
+          "endChapter": 43,
+          "citationLabel": "Isaías 40-43"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-208",
+      "planId": "chronological",
+      "dayNumber": 208,
+      "month": 7,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-208-reading-0",
+          "dayId": "chronological-day-208",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 44,
+          "endChapter": 48,
+          "citationLabel": "Isaías 44-48"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-209",
+      "planId": "chronological",
+      "dayNumber": 209,
+      "month": 7,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-209-reading-0",
+          "dayId": "chronological-day-209",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 18,
+          "startVerse": 9,
+          "endChapter": 19,
+          "endVerse": 37,
+          "citationLabel": "2 Reyes 18:9-19:37"
+        },
+        {
+          "id": "chronological-day-209-reading-1",
+          "dayId": "chronological-day-209",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 46,
+          "endChapter": 135,
+          "citationLabel": "Salmos 46, 80, 135"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-210",
+      "planId": "chronological",
+      "dayNumber": 210,
+      "month": 7,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-210-reading-0",
+          "dayId": "chronological-day-210",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 49,
+          "endChapter": 53,
+          "citationLabel": "Isaías 49-53"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-211",
+      "planId": "chronological",
+      "dayNumber": 211,
+      "month": 7,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-211-reading-0",
+          "dayId": "chronological-day-211",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 54,
+          "endChapter": 58,
+          "citationLabel": "Isaías 54-58"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-212",
+      "planId": "chronological",
+      "dayNumber": 212,
+      "month": 7,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-212-reading-0",
+          "dayId": "chronological-day-212",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 59,
+          "endChapter": 63,
+          "citationLabel": "Isaías 59-63"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-213",
+      "planId": "chronological",
+      "dayNumber": 213,
+      "month": 8,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-213-reading-0",
+          "dayId": "chronological-day-213",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 64,
+          "endChapter": 66,
+          "citationLabel": "Isaías 64-66"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-214",
+      "planId": "chronological",
+      "dayNumber": 214,
+      "month": 8,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-214-reading-0",
+          "dayId": "chronological-day-214",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Crónicas 36"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-215",
+      "planId": "chronological",
+      "dayNumber": 215,
+      "month": 8,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-215-reading-0",
+          "dayId": "chronological-day-215",
+          "orderIndex": 0,
+          "bookId": "2CH",
+          "bookName": "2 Crónicas",
+          "startChapter": 32,
+          "endChapter": 33,
+          "citationLabel": "2 Crónicas 32-33"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-216",
+      "planId": "chronological",
+      "dayNumber": 216,
+      "month": 8,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-216-reading-0",
+          "dayId": "chronological-day-216",
+          "orderIndex": 0,
+          "bookId": "NAM",
+          "bookName": "Nahúm",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Nahúm 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-217",
+      "planId": "chronological",
+      "dayNumber": 217,
+      "month": 8,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-217-reading-0",
+          "dayId": "chronological-day-217",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 22,
+          "endChapter": 23,
+          "citationLabel": "2 Reyes 22-23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-218",
+      "planId": "chronological",
+      "dayNumber": 218,
+      "month": 8,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-218-reading-0",
+          "dayId": "chronological-day-218",
+          "orderIndex": 0,
+          "bookId": "ZEP",
+          "bookName": "Sofonías",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Sofonías 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-219",
+      "planId": "chronological",
+      "dayNumber": 219,
+      "month": 8,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-219-reading-0",
+          "dayId": "chronological-day-219",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Jeremías 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-220",
+      "planId": "chronological",
+      "dayNumber": 220,
+      "month": 8,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-220-reading-0",
+          "dayId": "chronological-day-220",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Jeremías 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-221",
+      "planId": "chronological",
+      "dayNumber": 221,
+      "month": 8,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-221-reading-0",
+          "dayId": "chronological-day-221",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 7,
+          "endChapter": 9,
+          "citationLabel": "Jeremías 7-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-222",
+      "planId": "chronological",
+      "dayNumber": 222,
+      "month": 8,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-222-reading-0",
+          "dayId": "chronological-day-222",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 10,
+          "endChapter": 13,
+          "citationLabel": "Jeremías 10-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-223",
+      "planId": "chronological",
+      "dayNumber": 223,
+      "month": 8,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-223-reading-0",
+          "dayId": "chronological-day-223",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 14,
+          "endChapter": 17,
+          "citationLabel": "Jeremías 14-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-224",
+      "planId": "chronological",
+      "dayNumber": 224,
+      "month": 8,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-224-reading-0",
+          "dayId": "chronological-day-224",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 18,
+          "endChapter": 22,
+          "citationLabel": "Jeremías 18-22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-225",
+      "planId": "chronological",
+      "dayNumber": 225,
+      "month": 8,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-225-reading-0",
+          "dayId": "chronological-day-225",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 23,
+          "endChapter": 25,
+          "citationLabel": "Jeremías 23-25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-226",
+      "planId": "chronological",
+      "dayNumber": 226,
+      "month": 8,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-226-reading-0",
+          "dayId": "chronological-day-226",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 26,
+          "endChapter": 29,
+          "citationLabel": "Jeremías 26-29"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-227",
+      "planId": "chronological",
+      "dayNumber": 227,
+      "month": 8,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-227-reading-0",
+          "dayId": "chronological-day-227",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 30,
+          "endChapter": 31,
+          "citationLabel": "Jeremías 30-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-228",
+      "planId": "chronological",
+      "dayNumber": 228,
+      "month": 8,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-228-reading-0",
+          "dayId": "chronological-day-228",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 32,
+          "endChapter": 34,
+          "citationLabel": "Jeremías 32-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-229",
+      "planId": "chronological",
+      "dayNumber": 229,
+      "month": 8,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-229-reading-0",
+          "dayId": "chronological-day-229",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 35,
+          "endChapter": 37,
+          "citationLabel": "Jeremías 35-37"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-230",
+      "planId": "chronological",
+      "dayNumber": 230,
+      "month": 8,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-230-reading-0",
+          "dayId": "chronological-day-230",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 38,
+          "endChapter": 40,
+          "citationLabel": "Jeremías 38-40"
+        },
+        {
+          "id": "chronological-day-230-reading-1",
+          "dayId": "chronological-day-230",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 74,
+          "endChapter": 79,
+          "citationLabel": "Salmos 74, 79"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-231",
+      "planId": "chronological",
+      "dayNumber": 231,
+      "month": 8,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-231-reading-0",
+          "dayId": "chronological-day-231",
+          "orderIndex": 0,
+          "bookId": "2KI",
+          "bookName": "2 Reyes",
+          "startChapter": 24,
+          "endChapter": 25,
+          "citationLabel": "2 Reyes 24-25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-232",
+      "planId": "chronological",
+      "dayNumber": 232,
+      "month": 8,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-232-reading-0",
+          "dayId": "chronological-day-232",
+          "orderIndex": 0,
+          "bookId": "HAB",
+          "bookName": "Habacuc",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Habacuc 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-233",
+      "planId": "chronological",
+      "dayNumber": 233,
+      "month": 8,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-233-reading-0",
+          "dayId": "chronological-day-233",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 41,
+          "endChapter": 45,
+          "citationLabel": "Jeremías 41-45"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-234",
+      "planId": "chronological",
+      "dayNumber": 234,
+      "month": 8,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-234-reading-0",
+          "dayId": "chronological-day-234",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 46,
+          "endChapter": 48,
+          "citationLabel": "Jeremías 46-48"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-235",
+      "planId": "chronological",
+      "dayNumber": 235,
+      "month": 8,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-235-reading-0",
+          "dayId": "chronological-day-235",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 49,
+          "endChapter": 50,
+          "citationLabel": "Jeremías 49-50"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-236",
+      "planId": "chronological",
+      "dayNumber": 236,
+      "month": 8,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-236-reading-0",
+          "dayId": "chronological-day-236",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 51,
+          "endChapter": 52,
+          "citationLabel": "Jeremías 51-52"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-237",
+      "planId": "chronological",
+      "dayNumber": 237,
+      "month": 8,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-237-reading-0",
+          "dayId": "chronological-day-237",
+          "orderIndex": 0,
+          "bookId": "LAM",
+          "bookName": "Lamentaciones",
+          "startChapter": 1,
+          "startVerse": 1,
+          "endChapter": 3,
+          "endVerse": 36,
+          "citationLabel": "Lamentations 1:1- 3:36"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-238",
+      "planId": "chronological",
+      "dayNumber": 238,
+      "month": 8,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-238-reading-0",
+          "dayId": "chronological-day-238",
+          "orderIndex": 0,
+          "bookId": "LAM",
+          "bookName": "Lamentaciones",
+          "startChapter": 3,
+          "startVerse": 37,
+          "endChapter": 5,
+          "endVerse": 22,
+          "citationLabel": "Lamentations 3:37- 5:22"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-239",
+      "planId": "chronological",
+      "dayNumber": 239,
+      "month": 8,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-239-reading-0",
+          "dayId": "chronological-day-239",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Ezequiel 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-240",
+      "planId": "chronological",
+      "dayNumber": 240,
+      "month": 8,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-240-reading-0",
+          "dayId": "chronological-day-240",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 5,
+          "endChapter": 8,
+          "citationLabel": "Ezequiel 5-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-241",
+      "planId": "chronological",
+      "dayNumber": 241,
+      "month": 8,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-241-reading-0",
+          "dayId": "chronological-day-241",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 9,
+          "endChapter": 12,
+          "citationLabel": "Ezequiel 9-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-242",
+      "planId": "chronological",
+      "dayNumber": 242,
+      "month": 8,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-242-reading-0",
+          "dayId": "chronological-day-242",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 13,
+          "endChapter": 15,
+          "citationLabel": "Ezequiel 13-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-243",
+      "planId": "chronological",
+      "dayNumber": 243,
+      "month": 8,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-243-reading-0",
+          "dayId": "chronological-day-243",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 16,
+          "endChapter": 17,
+          "citationLabel": "Ezequiel 16-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-244",
+      "planId": "chronological",
+      "dayNumber": 244,
+      "month": 9,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-244-reading-0",
+          "dayId": "chronological-day-244",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 18,
+          "endChapter": 19,
+          "citationLabel": "Ezequiel 18-19"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-245",
+      "planId": "chronological",
+      "dayNumber": 245,
+      "month": 9,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-245-reading-0",
+          "dayId": "chronological-day-245",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 20,
+          "endChapter": 21,
+          "citationLabel": "Ezequiel 20-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-246",
+      "planId": "chronological",
+      "dayNumber": 246,
+      "month": 9,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-246-reading-0",
+          "dayId": "chronological-day-246",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 22,
+          "endChapter": 23,
+          "citationLabel": "Ezequiel 22-23"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-247",
+      "planId": "chronological",
+      "dayNumber": 247,
+      "month": 9,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-247-reading-0",
+          "dayId": "chronological-day-247",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 24,
+          "endChapter": 27,
+          "citationLabel": "Ezequiel 24-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-248",
+      "planId": "chronological",
+      "dayNumber": 248,
+      "month": 9,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-248-reading-0",
+          "dayId": "chronological-day-248",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 28,
+          "endChapter": 31,
+          "citationLabel": "Ezequiel 28-31"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-249",
+      "planId": "chronological",
+      "dayNumber": 249,
+      "month": 9,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-249-reading-0",
+          "dayId": "chronological-day-249",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 32,
+          "endChapter": 34,
+          "citationLabel": "Ezequiel 32-34"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-250",
+      "planId": "chronological",
+      "dayNumber": 250,
+      "month": 9,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-250-reading-0",
+          "dayId": "chronological-day-250",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 35,
+          "endChapter": 37,
+          "citationLabel": "Ezequiel 35-37"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-251",
+      "planId": "chronological",
+      "dayNumber": 251,
+      "month": 9,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-251-reading-0",
+          "dayId": "chronological-day-251",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 38,
+          "endChapter": 39,
+          "citationLabel": "Ezequiel 38-39"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-252",
+      "planId": "chronological",
+      "dayNumber": 252,
+      "month": 9,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-252-reading-0",
+          "dayId": "chronological-day-252",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 40,
+          "endChapter": 41,
+          "citationLabel": "Ezequiel 40-41"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-253",
+      "planId": "chronological",
+      "dayNumber": 253,
+      "month": 9,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-253-reading-0",
+          "dayId": "chronological-day-253",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 42,
+          "endChapter": 43,
+          "citationLabel": "Ezequiel 42-43"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-254",
+      "planId": "chronological",
+      "dayNumber": 254,
+      "month": 9,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-254-reading-0",
+          "dayId": "chronological-day-254",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 44,
+          "endChapter": 45,
+          "citationLabel": "Ezequiel 44-45"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-255",
+      "planId": "chronological",
+      "dayNumber": 255,
+      "month": 9,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-255-reading-0",
+          "dayId": "chronological-day-255",
+          "orderIndex": 0,
+          "bookId": "EZK",
+          "bookName": "Ezequiel",
+          "startChapter": 46,
+          "endChapter": 48,
+          "citationLabel": "Ezequiel 46-48"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-256",
+      "planId": "chronological",
+      "dayNumber": 256,
+      "month": 9,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-256-reading-0",
+          "dayId": "chronological-day-256",
+          "orderIndex": 0,
+          "bookId": "JOL",
+          "bookName": "Joel",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Joel 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-257",
+      "planId": "chronological",
+      "dayNumber": 257,
+      "month": 9,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-257-reading-0",
+          "dayId": "chronological-day-257",
+          "orderIndex": 0,
+          "bookId": "DAN",
+          "bookName": "Daniel",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Daniel 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-258",
+      "planId": "chronological",
+      "dayNumber": 258,
+      "month": 9,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-258-reading-0",
+          "dayId": "chronological-day-258",
+          "orderIndex": 0,
+          "bookId": "DAN",
+          "bookName": "Daniel",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Daniel 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-259",
+      "planId": "chronological",
+      "dayNumber": 259,
+      "month": 9,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-259-reading-0",
+          "dayId": "chronological-day-259",
+          "orderIndex": 0,
+          "bookId": "DAN",
+          "bookName": "Daniel",
+          "startChapter": 7,
+          "endChapter": 9,
+          "citationLabel": "Daniel 7-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-260",
+      "planId": "chronological",
+      "dayNumber": 260,
+      "month": 9,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-260-reading-0",
+          "dayId": "chronological-day-260",
+          "orderIndex": 0,
+          "bookId": "DAN",
+          "bookName": "Daniel",
+          "startChapter": 10,
+          "endChapter": 12,
+          "citationLabel": "Daniel 10-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-261",
+      "planId": "chronological",
+      "dayNumber": 261,
+      "month": 9,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-261-reading-0",
+          "dayId": "chronological-day-261",
+          "orderIndex": 0,
+          "bookId": "EZR",
+          "bookName": "Esdras",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Esdras 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-262",
+      "planId": "chronological",
+      "dayNumber": 262,
+      "month": 9,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-262-reading-0",
+          "dayId": "chronological-day-262",
+          "orderIndex": 0,
+          "bookId": "EZR",
+          "bookName": "Esdras",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Esdras 4-6"
+        },
+        {
+          "id": "chronological-day-262-reading-1",
+          "dayId": "chronological-day-262",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 137,
+          "endChapter": 137,
+          "citationLabel": "Salmo 137"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-263",
+      "planId": "chronological",
+      "dayNumber": 263,
+      "month": 9,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-263-reading-0",
+          "dayId": "chronological-day-263",
+          "orderIndex": 0,
+          "bookId": "HAG",
+          "bookName": "Hageo",
+          "startChapter": 1,
+          "endChapter": 2,
+          "citationLabel": "Hageo 1-2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-264",
+      "planId": "chronological",
+      "dayNumber": 264,
+      "month": 9,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-264-reading-0",
+          "dayId": "chronological-day-264",
+          "orderIndex": 0,
+          "bookId": "ZEC",
+          "bookName": "Zacarías",
+          "startChapter": 1,
+          "endChapter": 7,
+          "citationLabel": "Zacarías 1-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-265",
+      "planId": "chronological",
+      "dayNumber": 265,
+      "month": 9,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-265-reading-0",
+          "dayId": "chronological-day-265",
+          "orderIndex": 0,
+          "bookId": "ZEC",
+          "bookName": "Zacarías",
+          "startChapter": 8,
+          "endChapter": 14,
+          "citationLabel": "Zacarías 8-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-266",
+      "planId": "chronological",
+      "dayNumber": 266,
+      "month": 9,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-266-reading-0",
+          "dayId": "chronological-day-266",
+          "orderIndex": 0,
+          "bookId": "EST",
+          "bookName": "Ester",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Ester 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-267",
+      "planId": "chronological",
+      "dayNumber": 267,
+      "month": 9,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-267-reading-0",
+          "dayId": "chronological-day-267",
+          "orderIndex": 0,
+          "bookId": "EST",
+          "bookName": "Ester",
+          "startChapter": 6,
+          "endChapter": 10,
+          "citationLabel": "Ester 6-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-268",
+      "planId": "chronological",
+      "dayNumber": 268,
+      "month": 9,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-268-reading-0",
+          "dayId": "chronological-day-268",
+          "orderIndex": 0,
+          "bookId": "EZR",
+          "bookName": "Esdras",
+          "startChapter": 7,
+          "endChapter": 10,
+          "citationLabel": "Esdras 7-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-269",
+      "planId": "chronological",
+      "dayNumber": 269,
+      "month": 9,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-269-reading-0",
+          "dayId": "chronological-day-269",
+          "orderIndex": 0,
+          "bookId": "NEH",
+          "bookName": "Nehemías",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Nehemías 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-270",
+      "planId": "chronological",
+      "dayNumber": 270,
+      "month": 9,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-270-reading-0",
+          "dayId": "chronological-day-270",
+          "orderIndex": 0,
+          "bookId": "NEH",
+          "bookName": "Nehemías",
+          "startChapter": 6,
+          "endChapter": 7,
+          "citationLabel": "Nehemías 6-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-271",
+      "planId": "chronological",
+      "dayNumber": 271,
+      "month": 9,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-271-reading-0",
+          "dayId": "chronological-day-271",
+          "orderIndex": 0,
+          "bookId": "NEH",
+          "bookName": "Nehemías",
+          "startChapter": 8,
+          "endChapter": 10,
+          "citationLabel": "Nehemías 8-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-272",
+      "planId": "chronological",
+      "dayNumber": 272,
+      "month": 9,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-272-reading-0",
+          "dayId": "chronological-day-272",
+          "orderIndex": 0,
+          "bookId": "NEH",
+          "bookName": "Nehemías",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Nehemías 11-13"
+        },
+        {
+          "id": "chronological-day-272-reading-1",
+          "dayId": "chronological-day-272",
+          "orderIndex": 1,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 126,
+          "endChapter": 126,
+          "citationLabel": "Salmo 126"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-273",
+      "planId": "chronological",
+      "dayNumber": 273,
+      "month": 9,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-273-reading-0",
+          "dayId": "chronological-day-273",
+          "orderIndex": 0,
+          "bookId": "MAL",
+          "bookName": "Malaquías",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Malaquías 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-274",
+      "planId": "chronological",
+      "dayNumber": 274,
+      "month": 10,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-274-reading-0",
+          "dayId": "chronological-day-274",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Lucas 1"
+        },
+        {
+          "id": "chronological-day-274-reading-1",
+          "dayId": "chronological-day-274",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 1,
+          "startVerse": 1,
+          "endChapter": 1,
+          "endVerse": 14,
+          "citationLabel": "Juan 1:1-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-275",
+      "planId": "chronological",
+      "dayNumber": 275,
+      "month": 10,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-275-reading-0",
+          "dayId": "chronological-day-275",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Mateo 1"
+        },
+        {
+          "id": "chronological-day-275-reading-1",
+          "dayId": "chronological-day-275",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 2,
+          "startVerse": 1,
+          "endChapter": 2,
+          "endVerse": 38,
+          "citationLabel": "Lucas 2:1-38"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-276",
+      "planId": "chronological",
+      "dayNumber": 276,
+      "month": 10,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-276-reading-0",
+          "dayId": "chronological-day-276",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 2,
+          "endChapter": 2,
+          "citationLabel": "Mateo 2"
+        },
+        {
+          "id": "chronological-day-276-reading-1",
+          "dayId": "chronological-day-276",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 2,
+          "startVerse": 39,
+          "endChapter": 2,
+          "endVerse": 52,
+          "citationLabel": "Lucas 2:39-52"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-277",
+      "planId": "chronological",
+      "dayNumber": 277,
+      "month": 10,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-277-reading-0",
+          "dayId": "chronological-day-277",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 3,
+          "endChapter": 3,
+          "citationLabel": "Mateo 3"
+        },
+        {
+          "id": "chronological-day-277-reading-1",
+          "dayId": "chronological-day-277",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Marcos 1"
+        },
+        {
+          "id": "chronological-day-277-reading-2",
+          "dayId": "chronological-day-277",
+          "orderIndex": 2,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 3,
+          "endChapter": 3,
+          "citationLabel": "Lucas 3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-278",
+      "planId": "chronological",
+      "dayNumber": 278,
+      "month": 10,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-278-reading-0",
+          "dayId": "chronological-day-278",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 4,
+          "endChapter": 4,
+          "citationLabel": "Mateo 4"
+        },
+        {
+          "id": "chronological-day-278-reading-1",
+          "dayId": "chronological-day-278",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 4,
+          "endChapter": 5,
+          "citationLabel": "Lucas 4-5"
+        },
+        {
+          "id": "chronological-day-278-reading-2",
+          "dayId": "chronological-day-278",
+          "orderIndex": 2,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 1,
+          "startVerse": 15,
+          "endChapter": 1,
+          "endVerse": 51,
+          "citationLabel": "Juan 1:15-51"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-279",
+      "planId": "chronological",
+      "dayNumber": 279,
+      "month": 10,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-279-reading-0",
+          "dayId": "chronological-day-279",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 2,
+          "endChapter": 4,
+          "citationLabel": "Juan 2-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-280",
+      "planId": "chronological",
+      "dayNumber": 280,
+      "month": 10,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-280-reading-0",
+          "dayId": "chronological-day-280",
+          "orderIndex": 0,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 2,
+          "endChapter": 2,
+          "citationLabel": "Marcos 2"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-281",
+      "planId": "chronological",
+      "dayNumber": 281,
+      "month": 10,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-281-reading-0",
+          "dayId": "chronological-day-281",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 5,
+          "endChapter": 5,
+          "citationLabel": "Juan 5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-282",
+      "planId": "chronological",
+      "dayNumber": 282,
+      "month": 10,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-282-reading-0",
+          "dayId": "chronological-day-282",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 12,
+          "startVerse": 1,
+          "endChapter": 12,
+          "endVerse": 21,
+          "citationLabel": "Mateo 12:1-21"
+        },
+        {
+          "id": "chronological-day-282-reading-1",
+          "dayId": "chronological-day-282",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 3,
+          "endChapter": 3,
+          "citationLabel": "Marcos 3"
+        },
+        {
+          "id": "chronological-day-282-reading-2",
+          "dayId": "chronological-day-282",
+          "orderIndex": 2,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 6,
+          "endChapter": 6,
+          "citationLabel": "Lucas 6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-283",
+      "planId": "chronological",
+      "dayNumber": 283,
+      "month": 10,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-283-reading-0",
+          "dayId": "chronological-day-283",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 5,
+          "endChapter": 7,
+          "citationLabel": "Mateo 5-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-284",
+      "planId": "chronological",
+      "dayNumber": 284,
+      "month": 10,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-284-reading-0",
+          "dayId": "chronological-day-284",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 8,
+          "startVerse": 1,
+          "endChapter": 8,
+          "endVerse": 13,
+          "citationLabel": "Mateo 8:1-13"
+        },
+        {
+          "id": "chronological-day-284-reading-1",
+          "dayId": "chronological-day-284",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 7,
+          "endChapter": 7,
+          "citationLabel": "Lucas 7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-285",
+      "planId": "chronological",
+      "dayNumber": 285,
+      "month": 10,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-285-reading-0",
+          "dayId": "chronological-day-285",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 11,
+          "endChapter": 11,
+          "citationLabel": "Mateo 11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-286",
+      "planId": "chronological",
+      "dayNumber": 286,
+      "month": 10,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-286-reading-0",
+          "dayId": "chronological-day-286",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 12,
+          "startVerse": 22,
+          "endChapter": 12,
+          "endVerse": 50,
+          "citationLabel": "Mateo 12:22-50"
+        },
+        {
+          "id": "chronological-day-286-reading-1",
+          "dayId": "chronological-day-286",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 11,
+          "endChapter": 11,
+          "citationLabel": "Lucas 11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-287",
+      "planId": "chronological",
+      "dayNumber": 287,
+      "month": 10,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-287-reading-0",
+          "dayId": "chronological-day-287",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 13,
+          "endChapter": 13,
+          "citationLabel": "Mateo 13"
+        },
+        {
+          "id": "chronological-day-287-reading-1",
+          "dayId": "chronological-day-287",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 8,
+          "endChapter": 8,
+          "citationLabel": "Lucas 8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-288",
+      "planId": "chronological",
+      "dayNumber": 288,
+      "month": 10,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-288-reading-0",
+          "dayId": "chronological-day-288",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 8,
+          "startVerse": 14,
+          "endChapter": 8,
+          "endVerse": 34,
+          "citationLabel": "Mateo 8:14-34"
+        },
+        {
+          "id": "chronological-day-288-reading-1",
+          "dayId": "chronological-day-288",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 4,
+          "endChapter": 5,
+          "citationLabel": "Marcos 4-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-289",
+      "planId": "chronological",
+      "dayNumber": 289,
+      "month": 10,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-289-reading-0",
+          "dayId": "chronological-day-289",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 9,
+          "endChapter": 10,
+          "citationLabel": "Mateo 9-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-290",
+      "planId": "chronological",
+      "dayNumber": 290,
+      "month": 10,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-290-reading-0",
+          "dayId": "chronological-day-290",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 14,
+          "endChapter": 14,
+          "citationLabel": "Mateo 14"
+        },
+        {
+          "id": "chronological-day-290-reading-1",
+          "dayId": "chronological-day-290",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 6,
+          "endChapter": 6,
+          "citationLabel": "Marcos 6"
+        },
+        {
+          "id": "chronological-day-290-reading-2",
+          "dayId": "chronological-day-290",
+          "orderIndex": 2,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 9,
+          "startVerse": 1,
+          "endChapter": 9,
+          "endVerse": 17,
+          "citationLabel": "Lucas 9:1-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-291",
+      "planId": "chronological",
+      "dayNumber": 291,
+      "month": 10,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-291-reading-0",
+          "dayId": "chronological-day-291",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 6,
+          "endChapter": 6,
+          "citationLabel": "Juan 6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-292",
+      "planId": "chronological",
+      "dayNumber": 292,
+      "month": 10,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-292-reading-0",
+          "dayId": "chronological-day-292",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 15,
+          "endChapter": 15,
+          "citationLabel": "Mateo 15"
+        },
+        {
+          "id": "chronological-day-292-reading-1",
+          "dayId": "chronological-day-292",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 7,
+          "endChapter": 7,
+          "citationLabel": "Marcos 7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-293",
+      "planId": "chronological",
+      "dayNumber": 293,
+      "month": 10,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-293-reading-0",
+          "dayId": "chronological-day-293",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 16,
+          "endChapter": 16,
+          "citationLabel": "Mateo 16"
+        },
+        {
+          "id": "chronological-day-293-reading-1",
+          "dayId": "chronological-day-293",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 8,
+          "endChapter": 8,
+          "citationLabel": "Marcos 8"
+        },
+        {
+          "id": "chronological-day-293-reading-2",
+          "dayId": "chronological-day-293",
+          "orderIndex": 2,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 9,
+          "startVerse": 18,
+          "endChapter": 9,
+          "endVerse": 27,
+          "citationLabel": "Lucas 9:18-27"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-294",
+      "planId": "chronological",
+      "dayNumber": 294,
+      "month": 10,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-294-reading-0",
+          "dayId": "chronological-day-294",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 17,
+          "endChapter": 17,
+          "citationLabel": "Mateo 17"
+        },
+        {
+          "id": "chronological-day-294-reading-1",
+          "dayId": "chronological-day-294",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 9,
+          "endChapter": 9,
+          "citationLabel": "Marcos 9"
+        },
+        {
+          "id": "chronological-day-294-reading-2",
+          "dayId": "chronological-day-294",
+          "orderIndex": 2,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 9,
+          "startVerse": 28,
+          "endChapter": 9,
+          "endVerse": 62,
+          "citationLabel": "Lucas 9:28-62"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-295",
+      "planId": "chronological",
+      "dayNumber": 295,
+      "month": 10,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-295-reading-0",
+          "dayId": "chronological-day-295",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 18,
+          "endChapter": 18,
+          "citationLabel": "Mateo 18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-296",
+      "planId": "chronological",
+      "dayNumber": 296,
+      "month": 10,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-296-reading-0",
+          "dayId": "chronological-day-296",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 7,
+          "endChapter": 8,
+          "citationLabel": "Juan 7-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-297",
+      "planId": "chronological",
+      "dayNumber": 297,
+      "month": 10,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-297-reading-0",
+          "dayId": "chronological-day-297",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 9,
+          "startVerse": 1,
+          "endChapter": 10,
+          "endVerse": 21,
+          "citationLabel": "Juan 9:1-10:21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-298",
+      "planId": "chronological",
+      "dayNumber": 298,
+      "month": 10,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-298-reading-0",
+          "dayId": "chronological-day-298",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 10,
+          "endChapter": 10,
+          "citationLabel": "Lucas 10"
+        },
+        {
+          "id": "chronological-day-298-reading-1",
+          "dayId": "chronological-day-298",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 10,
+          "startVerse": 22,
+          "endChapter": 10,
+          "endVerse": 42,
+          "citationLabel": "Juan 10:22-42"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-299",
+      "planId": "chronological",
+      "dayNumber": 299,
+      "month": 10,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-299-reading-0",
+          "dayId": "chronological-day-299",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 12,
+          "endChapter": 13,
+          "citationLabel": "Lucas 12-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-300",
+      "planId": "chronological",
+      "dayNumber": 300,
+      "month": 10,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-300-reading-0",
+          "dayId": "chronological-day-300",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 14,
+          "endChapter": 15,
+          "citationLabel": "Lucas 14-15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-301",
+      "planId": "chronological",
+      "dayNumber": 301,
+      "month": 10,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-301-reading-0",
+          "dayId": "chronological-day-301",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 16,
+          "startVerse": 1,
+          "endChapter": 17,
+          "endVerse": 10,
+          "citationLabel": "Lucas 16:1-17:10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-302",
+      "planId": "chronological",
+      "dayNumber": 302,
+      "month": 10,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-302-reading-0",
+          "dayId": "chronological-day-302",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 11,
+          "endChapter": 11,
+          "citationLabel": "Juan 11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-303",
+      "planId": "chronological",
+      "dayNumber": 303,
+      "month": 10,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-303-reading-0",
+          "dayId": "chronological-day-303",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 17,
+          "startVerse": 11,
+          "endChapter": 18,
+          "endVerse": 14,
+          "citationLabel": "Lucas 17:11-18:14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-304",
+      "planId": "chronological",
+      "dayNumber": 304,
+      "month": 10,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-304-reading-0",
+          "dayId": "chronological-day-304",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 19,
+          "endChapter": 19,
+          "citationLabel": "Mateo 19"
+        },
+        {
+          "id": "chronological-day-304-reading-1",
+          "dayId": "chronological-day-304",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 10,
+          "endChapter": 10,
+          "citationLabel": "Marcos 10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-305",
+      "planId": "chronological",
+      "dayNumber": 305,
+      "month": 11,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-305-reading-0",
+          "dayId": "chronological-day-305",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 20,
+          "endChapter": 21,
+          "citationLabel": "Mateo 20-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-306",
+      "planId": "chronological",
+      "dayNumber": 306,
+      "month": 11,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-306-reading-0",
+          "dayId": "chronological-day-306",
+          "orderIndex": 0,
+          "bookId": "GEN",
+          "bookName": "Génesis",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Tesalonicenses"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-307",
+      "planId": "chronological",
+      "dayNumber": 307,
+      "month": 11,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-307-reading-0",
+          "dayId": "chronological-day-307",
+          "orderIndex": 0,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 11,
+          "endChapter": 11,
+          "citationLabel": "Marcos 11"
+        },
+        {
+          "id": "chronological-day-307-reading-1",
+          "dayId": "chronological-day-307",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 12,
+          "endChapter": 12,
+          "citationLabel": "Juan 12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-308",
+      "planId": "chronological",
+      "dayNumber": 308,
+      "month": 11,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-308-reading-0",
+          "dayId": "chronological-day-308",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 22,
+          "endChapter": 22,
+          "citationLabel": "Mateo 22"
+        },
+        {
+          "id": "chronological-day-308-reading-1",
+          "dayId": "chronological-day-308",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 12,
+          "endChapter": 12,
+          "citationLabel": "Marcos 12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-309",
+      "planId": "chronological",
+      "dayNumber": 309,
+      "month": 11,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-309-reading-0",
+          "dayId": "chronological-day-309",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 23,
+          "endChapter": 23,
+          "citationLabel": "Mateo 23"
+        },
+        {
+          "id": "chronological-day-309-reading-1",
+          "dayId": "chronological-day-309",
+          "orderIndex": 1,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 20,
+          "endChapter": 21,
+          "citationLabel": "Lucas 20-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-310",
+      "planId": "chronological",
+      "dayNumber": 310,
+      "month": 11,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-310-reading-0",
+          "dayId": "chronological-day-310",
+          "orderIndex": 0,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 13,
+          "endChapter": 13,
+          "citationLabel": "Marcos 13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-311",
+      "planId": "chronological",
+      "dayNumber": 311,
+      "month": 11,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-311-reading-0",
+          "dayId": "chronological-day-311",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 24,
+          "endChapter": 24,
+          "citationLabel": "Mateo 24"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-312",
+      "planId": "chronological",
+      "dayNumber": 312,
+      "month": 11,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-312-reading-0",
+          "dayId": "chronological-day-312",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 25,
+          "endChapter": 25,
+          "citationLabel": "Mateo 25"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-313",
+      "planId": "chronological",
+      "dayNumber": 313,
+      "month": 11,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-313-reading-0",
+          "dayId": "chronological-day-313",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 26,
+          "endChapter": 26,
+          "citationLabel": "Mateo 26"
+        },
+        {
+          "id": "chronological-day-313-reading-1",
+          "dayId": "chronological-day-313",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 14,
+          "endChapter": 14,
+          "citationLabel": "Marcos 14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-314",
+      "planId": "chronological",
+      "dayNumber": 314,
+      "month": 11,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-314-reading-0",
+          "dayId": "chronological-day-314",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 22,
+          "endChapter": 22,
+          "citationLabel": "Lucas 22"
+        },
+        {
+          "id": "chronological-day-314-reading-1",
+          "dayId": "chronological-day-314",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 13,
+          "endChapter": 13,
+          "citationLabel": "Juan 13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-315",
+      "planId": "chronological",
+      "dayNumber": 315,
+      "month": 11,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-315-reading-0",
+          "dayId": "chronological-day-315",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 14,
+          "endChapter": 17,
+          "citationLabel": "Juan 14-17"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-316",
+      "planId": "chronological",
+      "dayNumber": 316,
+      "month": 11,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-316-reading-0",
+          "dayId": "chronological-day-316",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 27,
+          "endChapter": 27,
+          "citationLabel": "Mateo 27"
+        },
+        {
+          "id": "chronological-day-316-reading-1",
+          "dayId": "chronological-day-316",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 15,
+          "endChapter": 15,
+          "citationLabel": "Marcos 15"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-317",
+      "planId": "chronological",
+      "dayNumber": 317,
+      "month": 11,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-317-reading-0",
+          "dayId": "chronological-day-317",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 23,
+          "endChapter": 23,
+          "citationLabel": "Lucas 23"
+        },
+        {
+          "id": "chronological-day-317-reading-1",
+          "dayId": "chronological-day-317",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 18,
+          "endChapter": 19,
+          "citationLabel": "Juan 18-19"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-318",
+      "planId": "chronological",
+      "dayNumber": 318,
+      "month": 11,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-318-reading-0",
+          "dayId": "chronological-day-318",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 28,
+          "endChapter": 28,
+          "citationLabel": "Mateo 28"
+        },
+        {
+          "id": "chronological-day-318-reading-1",
+          "dayId": "chronological-day-318",
+          "orderIndex": 1,
+          "bookId": "MRK",
+          "bookName": "Marcos",
+          "startChapter": 16,
+          "endChapter": 16,
+          "citationLabel": "Marcos 16"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-319",
+      "planId": "chronological",
+      "dayNumber": 319,
+      "month": 11,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-319-reading-0",
+          "dayId": "chronological-day-319",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 24,
+          "endChapter": 24,
+          "citationLabel": "Lucas 24"
+        },
+        {
+          "id": "chronological-day-319-reading-1",
+          "dayId": "chronological-day-319",
+          "orderIndex": 1,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 20,
+          "endChapter": 21,
+          "citationLabel": "Juan 20-21"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-320",
+      "planId": "chronological",
+      "dayNumber": 320,
+      "month": 11,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-320-reading-0",
+          "dayId": "chronological-day-320",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Hechos 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-321",
+      "planId": "chronological",
+      "dayNumber": 321,
+      "month": 11,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-321-reading-0",
+          "dayId": "chronological-day-321",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Hechos 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-322",
+      "planId": "chronological",
+      "dayNumber": 322,
+      "month": 11,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-322-reading-0",
+          "dayId": "chronological-day-322",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 7,
+          "endChapter": 8,
+          "citationLabel": "Hechos 7-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-323",
+      "planId": "chronological",
+      "dayNumber": 323,
+      "month": 11,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-323-reading-0",
+          "dayId": "chronological-day-323",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 9,
+          "endChapter": 10,
+          "citationLabel": "Hechos 9-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-324",
+      "planId": "chronological",
+      "dayNumber": 324,
+      "month": 11,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-324-reading-0",
+          "dayId": "chronological-day-324",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 11,
+          "endChapter": 12,
+          "citationLabel": "Hechos 11-12"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-325",
+      "planId": "chronological",
+      "dayNumber": 325,
+      "month": 11,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-325-reading-0",
+          "dayId": "chronological-day-325",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 13,
+          "endChapter": 14,
+          "citationLabel": "Hechos 13-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-326",
+      "planId": "chronological",
+      "dayNumber": 326,
+      "month": 11,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-326-reading-0",
+          "dayId": "chronological-day-326",
+          "orderIndex": 0,
+          "bookId": "JAS",
+          "bookName": "Santiago",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Santiago 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-327",
+      "planId": "chronological",
+      "dayNumber": 327,
+      "month": 11,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-327-reading-0",
+          "dayId": "chronological-day-327",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 15,
+          "endChapter": 16,
+          "citationLabel": "Hechos 15-16"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-328",
+      "planId": "chronological",
+      "dayNumber": 328,
+      "month": 11,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-328-reading-0",
+          "dayId": "chronological-day-328",
+          "orderIndex": 0,
+          "bookId": "GAL",
+          "bookName": "Gálatas",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Gálatas 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-329",
+      "planId": "chronological",
+      "dayNumber": 329,
+      "month": 11,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-329-reading-0",
+          "dayId": "chronological-day-329",
+          "orderIndex": 0,
+          "bookId": "GAL",
+          "bookName": "Gálatas",
+          "startChapter": 4,
+          "endChapter": 6,
+          "citationLabel": "Gálatas 4-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-330",
+      "planId": "chronological",
+      "dayNumber": 330,
+      "month": 11,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-330-reading-0",
+          "dayId": "chronological-day-330",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 17,
+          "startVerse": 1,
+          "endChapter": 18,
+          "endVerse": 18,
+          "citationLabel": "Hechos 17:1-18:18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-331",
+      "planId": "chronological",
+      "dayNumber": 331,
+      "month": 11,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-331-reading-0",
+          "dayId": "chronological-day-331",
+          "orderIndex": 0,
+          "bookId": "1TH",
+          "bookName": "1 Tesalonicenses",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "1 Tesalonicenses 1-5 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-332",
+      "planId": "chronological",
+      "dayNumber": 332,
+      "month": 11,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-332-reading-0",
+          "dayId": "chronological-day-332",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 18,
+          "startVerse": 19,
+          "endChapter": 19,
+          "endVerse": 41,
+          "citationLabel": "Hechos 18:19-19:41"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-333",
+      "planId": "chronological",
+      "dayNumber": 333,
+      "month": 11,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-333-reading-0",
+          "dayId": "chronological-day-333",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "1 Corintios 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-334",
+      "planId": "chronological",
+      "dayNumber": 334,
+      "month": 11,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-334-reading-0",
+          "dayId": "chronological-day-334",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 5,
+          "endChapter": 8,
+          "citationLabel": "1 Corintios 5-8"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-335",
+      "planId": "chronological",
+      "dayNumber": 335,
+      "month": 12,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "chronological-day-335-reading-0",
+          "dayId": "chronological-day-335",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 9,
+          "endChapter": 11,
+          "citationLabel": "1 Corintios 9-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-336",
+      "planId": "chronological",
+      "dayNumber": 336,
+      "month": 12,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "chronological-day-336-reading-0",
+          "dayId": "chronological-day-336",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 12,
+          "endChapter": 14,
+          "citationLabel": "1 Corintios 12-14"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-337",
+      "planId": "chronological",
+      "dayNumber": 337,
+      "month": 12,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "chronological-day-337-reading-0",
+          "dayId": "chronological-day-337",
+          "orderIndex": 0,
+          "bookId": "JHN",
+          "bookName": "Juan",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Juan 1"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-338",
+      "planId": "chronological",
+      "dayNumber": 338,
+      "month": 12,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "chronological-day-338-reading-0",
+          "dayId": "chronological-day-338",
+          "orderIndex": 0,
+          "bookId": "2CO",
+          "bookName": "2 Corintios",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "2 Corintios 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-339",
+      "planId": "chronological",
+      "dayNumber": 339,
+      "month": 12,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "chronological-day-339-reading-0",
+          "dayId": "chronological-day-339",
+          "orderIndex": 0,
+          "bookId": "2CO",
+          "bookName": "2 Corintios",
+          "startChapter": 5,
+          "endChapter": 9,
+          "citationLabel": "2 Corintios 5-9"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-340",
+      "planId": "chronological",
+      "dayNumber": 340,
+      "month": 12,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "chronological-day-340-reading-0",
+          "dayId": "chronological-day-340",
+          "orderIndex": 0,
+          "bookId": "2CO",
+          "bookName": "2 Corintios",
+          "startChapter": 10,
+          "endChapter": 13,
+          "citationLabel": "2 Corintios 10-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-341",
+      "planId": "chronological",
+      "dayNumber": 341,
+      "month": 12,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "chronological-day-341-reading-0",
+          "dayId": "chronological-day-341",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 20,
+          "startVerse": 1,
+          "endChapter": 20,
+          "endVerse": 3,
+          "citationLabel": "Hechos 20:1-3"
+        },
+        {
+          "id": "chronological-day-341-reading-1",
+          "dayId": "chronological-day-341",
+          "orderIndex": 1,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Romanos 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-342",
+      "planId": "chronological",
+      "dayNumber": 342,
+      "month": 12,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "chronological-day-342-reading-0",
+          "dayId": "chronological-day-342",
+          "orderIndex": 0,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 4,
+          "endChapter": 7,
+          "citationLabel": "Romanos 4-7"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-343",
+      "planId": "chronological",
+      "dayNumber": 343,
+      "month": 12,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "chronological-day-343-reading-0",
+          "dayId": "chronological-day-343",
+          "orderIndex": 0,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 8,
+          "endChapter": 10,
+          "citationLabel": "Romanos 8-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-344",
+      "planId": "chronological",
+      "dayNumber": 344,
+      "month": 12,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "chronological-day-344-reading-0",
+          "dayId": "chronological-day-344",
+          "orderIndex": 0,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Romanos 11-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-345",
+      "planId": "chronological",
+      "dayNumber": 345,
+      "month": 12,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "chronological-day-345-reading-0",
+          "dayId": "chronological-day-345",
+          "orderIndex": 0,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 14,
+          "endChapter": 16,
+          "citationLabel": "Romanos 14-16"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-346",
+      "planId": "chronological",
+      "dayNumber": 346,
+      "month": 12,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "chronological-day-346-reading-0",
+          "dayId": "chronological-day-346",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 20,
+          "startVerse": 4,
+          "endChapter": 23,
+          "endVerse": 35,
+          "citationLabel": "Hechos 20:4-23:35"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-347",
+      "planId": "chronological",
+      "dayNumber": 347,
+      "month": 12,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "chronological-day-347-reading-0",
+          "dayId": "chronological-day-347",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 24,
+          "endChapter": 26,
+          "citationLabel": "Hechos 24-26"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-348",
+      "planId": "chronological",
+      "dayNumber": 348,
+      "month": 12,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "chronological-day-348-reading-0",
+          "dayId": "chronological-day-348",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 27,
+          "endChapter": 28,
+          "citationLabel": "Hechos 27-28"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-349",
+      "planId": "chronological",
+      "dayNumber": 349,
+      "month": 12,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "chronological-day-349-reading-0",
+          "dayId": "chronological-day-349",
+          "orderIndex": 0,
+          "bookId": "COL",
+          "bookName": "Colosenses",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Colosenses 1-4"
+        },
+        {
+          "id": "chronological-day-349-reading-1",
+          "dayId": "chronological-day-349",
+          "orderIndex": 1,
+          "bookId": "PHM",
+          "bookName": "Filemón",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Filemón 1"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-350",
+      "planId": "chronological",
+      "dayNumber": 350,
+      "month": 12,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "chronological-day-350-reading-0",
+          "dayId": "chronological-day-350",
+          "orderIndex": 0,
+          "bookId": "EPH",
+          "bookName": "Efesios",
+          "startChapter": 1,
+          "endChapter": 6,
+          "citationLabel": "Efesios 1-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-351",
+      "planId": "chronological",
+      "dayNumber": 351,
+      "month": 12,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "chronological-day-351-reading-0",
+          "dayId": "chronological-day-351",
+          "orderIndex": 0,
+          "bookId": "PHP",
+          "bookName": "Filipenses",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "Filipenses 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-352",
+      "planId": "chronological",
+      "dayNumber": 352,
+      "month": 12,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "chronological-day-352-reading-0",
+          "dayId": "chronological-day-352",
+          "orderIndex": 0,
+          "bookId": "1TI",
+          "bookName": "1 Timoteo",
+          "startChapter": 1,
+          "endChapter": 6,
+          "citationLabel": "1 Timoteo 1-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-353",
+      "planId": "chronological",
+      "dayNumber": 353,
+      "month": 12,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "chronological-day-353-reading-0",
+          "dayId": "chronological-day-353",
+          "orderIndex": 0,
+          "bookId": "TIT",
+          "bookName": "Tito",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "Tito 1-3"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-354",
+      "planId": "chronological",
+      "dayNumber": 354,
+      "month": 12,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "chronological-day-354-reading-0",
+          "dayId": "chronological-day-354",
+          "orderIndex": 0,
+          "bookId": "1PE",
+          "bookName": "1 Pedro",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "1 Pedro 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-355",
+      "planId": "chronological",
+      "dayNumber": 355,
+      "month": 12,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "chronological-day-355-reading-0",
+          "dayId": "chronological-day-355",
+          "orderIndex": 0,
+          "bookId": "HEB",
+          "bookName": "Hebreos",
+          "startChapter": 1,
+          "endChapter": 6,
+          "citationLabel": "Hebreos 1-6"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-356",
+      "planId": "chronological",
+      "dayNumber": 356,
+      "month": 12,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "chronological-day-356-reading-0",
+          "dayId": "chronological-day-356",
+          "orderIndex": 0,
+          "bookId": "HEB",
+          "bookName": "Hebreos",
+          "startChapter": 7,
+          "endChapter": 10,
+          "citationLabel": "Hebreos 7-10"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-357",
+      "planId": "chronological",
+      "dayNumber": 357,
+      "month": 12,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "chronological-day-357-reading-0",
+          "dayId": "chronological-day-357",
+          "orderIndex": 0,
+          "bookId": "HEB",
+          "bookName": "Hebreos",
+          "startChapter": 11,
+          "endChapter": 13,
+          "citationLabel": "Hebreos 11-13"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-358",
+      "planId": "chronological",
+      "dayNumber": 358,
+      "month": 12,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "chronological-day-358-reading-0",
+          "dayId": "chronological-day-358",
+          "orderIndex": 0,
+          "bookId": "2TI",
+          "bookName": "2 Timoteo",
+          "startChapter": 1,
+          "endChapter": 4,
+          "citationLabel": "2 Timoteo 1-4"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-359",
+      "planId": "chronological",
+      "dayNumber": 359,
+      "month": 12,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "chronological-day-359-reading-0",
+          "dayId": "chronological-day-359",
+          "orderIndex": 0,
+          "bookId": "2PE",
+          "bookName": "2 Pedro",
+          "startChapter": 1,
+          "endChapter": 3,
+          "citationLabel": "2 Pedro 1-3"
+        },
+        {
+          "id": "chronological-day-359-reading-1",
+          "dayId": "chronological-day-359",
+          "orderIndex": 1,
+          "bookId": "JUD",
+          "bookName": "Judas",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "Judas 1"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-360",
+      "planId": "chronological",
+      "dayNumber": 360,
+      "month": 12,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "chronological-day-360-reading-0",
+          "dayId": "chronological-day-360",
+          "orderIndex": 0,
+          "bookId": "1JN",
+          "bookName": "1 Juan",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "1 Juan 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-361",
+      "planId": "chronological",
+      "dayNumber": 361,
+      "month": 12,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "chronological-day-361-reading-0",
+          "dayId": "chronological-day-361",
+          "orderIndex": 0,
+          "bookId": "2JN",
+          "bookName": "2 Juan",
+          "startChapter": 1,
+          "endChapter": 1,
+          "citationLabel": "2 Juan 1"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-362",
+      "planId": "chronological",
+      "dayNumber": 362,
+      "month": 12,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "chronological-day-362-reading-0",
+          "dayId": "chronological-day-362",
+          "orderIndex": 0,
+          "bookId": "REV",
+          "bookName": "Apocalipsis",
+          "startChapter": 1,
+          "endChapter": 5,
+          "citationLabel": "Apocalipsis 1-5"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-363",
+      "planId": "chronological",
+      "dayNumber": 363,
+      "month": 12,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "chronological-day-363-reading-0",
+          "dayId": "chronological-day-363",
+          "orderIndex": 0,
+          "bookId": "REV",
+          "bookName": "Apocalipsis",
+          "startChapter": 6,
+          "endChapter": 11,
+          "citationLabel": "Apocalipsis 6-11"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-364",
+      "planId": "chronological",
+      "dayNumber": 364,
+      "month": 12,
+      "dayOfMonth": 30,
+      "readings": [
+        {
+          "id": "chronological-day-364-reading-0",
+          "dayId": "chronological-day-364",
+          "orderIndex": 0,
+          "bookId": "REV",
+          "bookName": "Apocalipsis",
+          "startChapter": 12,
+          "endChapter": 18,
+          "citationLabel": "Apocalipsis 12-18"
+        }
+      ]
+    },
+    {
+      "id": "chronological-day-365",
+      "planId": "chronological",
+      "dayNumber": 365,
+      "month": 12,
+      "dayOfMonth": 31,
+      "readings": [
+        {
+          "id": "chronological-day-365-reading-0",
+          "dayId": "chronological-day-365",
+          "orderIndex": 0,
+          "bookId": "REV",
+          "bookName": "Apocalipsis",
+          "startChapter": 19,
+          "endChapter": 22,
+          "citationLabel": "Apocalipsis 19-22"
+        }
+      ]
+    }
+  ]
+}

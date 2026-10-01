@@ -1,0 +1,673 @@
+{
+  "plan": {
+    "id": "ued-september-2026",
+    "title": "Desafío Una Escritura Diaria — Reflejar la bondad de Dios",
+    "description": "La bondad es el amor en acción. Consiste en elegir tratar a los demás con calidez, generosidad y respeto, incluso cuando no se espera ni se merece. A través de su Espíritu, Dios nos ayuda a reflejar su bondad en nuestras palabras, actitudes y acciones.",
+    "archetype": "monthly",
+    "totalDays": 30,
+    "isFeatured": false
+  },
+  "days": [
+    {
+      "id": "ued-september-2026-day-1",
+      "planId": "ued-september-2026",
+      "dayNumber": 1,
+      "title": "Día 1: Gálatas 5:22-23",
+      "month": 9,
+      "dayOfMonth": 1,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-1-reading-0",
+          "dayId": "ued-september-2026-day-1",
+          "orderIndex": 0,
+          "bookId": "GAL",
+          "bookName": "Gálatas",
+          "startChapter": 5,
+          "startVerse": 22,
+          "endChapter": 5,
+          "endVerse": 23,
+          "citationLabel": "Gálatas 5:22-23"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-2",
+      "planId": "ued-september-2026",
+      "dayNumber": 2,
+      "title": "Día 2: Efesios 4:32",
+      "month": 9,
+      "dayOfMonth": 2,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-2-reading-0",
+          "dayId": "ued-september-2026-day-2",
+          "orderIndex": 0,
+          "bookId": "EPH",
+          "bookName": "Efesios",
+          "startChapter": 4,
+          "startVerse": 32,
+          "endChapter": 4,
+          "endVerse": 32,
+          "citationLabel": "Efesios 4:32"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-3",
+      "planId": "ued-september-2026",
+      "dayNumber": 3,
+      "title": "Día 3: Colosenses 3:12-13",
+      "month": 9,
+      "dayOfMonth": 3,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-3-reading-0",
+          "dayId": "ued-september-2026-day-3",
+          "orderIndex": 0,
+          "bookId": "COL",
+          "bookName": "Colosenses",
+          "startChapter": 3,
+          "startVerse": 12,
+          "endChapter": 3,
+          "endVerse": 13,
+          "citationLabel": "Colosenses 3:12-13"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-4",
+      "planId": "ued-september-2026",
+      "dayNumber": 4,
+      "title": "Día 4: 1 Corintios 13:4",
+      "month": 9,
+      "dayOfMonth": 4,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-4-reading-0",
+          "dayId": "ued-september-2026-day-4",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 13,
+          "startVerse": 4,
+          "endChapter": 13,
+          "endVerse": 4,
+          "citationLabel": "1 Corintios 13:4"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-5",
+      "planId": "ued-september-2026",
+      "dayNumber": 5,
+      "title": "Día 5: Proverbios 19:22",
+      "month": 9,
+      "dayOfMonth": 5,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-5-reading-0",
+          "dayId": "ued-september-2026-day-5",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 19,
+          "startVerse": 22,
+          "endChapter": 19,
+          "endVerse": 22,
+          "citationLabel": "Proverbios 19:22"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-6",
+      "planId": "ued-september-2026",
+      "dayNumber": 6,
+      "title": "Día 6: Proverbios 31:26",
+      "month": 9,
+      "dayOfMonth": 6,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-6-reading-0",
+          "dayId": "ued-september-2026-day-6",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 31,
+          "startVerse": 26,
+          "endChapter": 31,
+          "endVerse": 26,
+          "citationLabel": "Proverbios 31:26"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-7",
+      "planId": "ued-september-2026",
+      "dayNumber": 7,
+      "title": "Día 7: Miqueas 6:8",
+      "month": 9,
+      "dayOfMonth": 7,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-7-reading-0",
+          "dayId": "ued-september-2026-day-7",
+          "orderIndex": 0,
+          "bookId": "MIC",
+          "bookName": "Miqueas",
+          "startChapter": 6,
+          "startVerse": 8,
+          "endChapter": 6,
+          "endVerse": 8,
+          "citationLabel": "Miqueas 6:8"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-8",
+      "planId": "ued-september-2026",
+      "dayNumber": 8,
+      "title": "Día 8: Lucas 6:35-36",
+      "month": 9,
+      "dayOfMonth": 8,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-8-reading-0",
+          "dayId": "ued-september-2026-day-8",
+          "orderIndex": 0,
+          "bookId": "LUK",
+          "bookName": "Lucas",
+          "startChapter": 6,
+          "startVerse": 35,
+          "endChapter": 6,
+          "endVerse": 36,
+          "citationLabel": "Lucas 6:35-36"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-9",
+      "planId": "ued-september-2026",
+      "dayNumber": 9,
+      "title": "Día 9: Romanos 2:4",
+      "month": 9,
+      "dayOfMonth": 9,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-9-reading-0",
+          "dayId": "ued-september-2026-day-9",
+          "orderIndex": 0,
+          "bookId": "ROM",
+          "bookName": "Romanos",
+          "startChapter": 2,
+          "startVerse": 4,
+          "endChapter": 2,
+          "endVerse": 4,
+          "citationLabel": "Romanos 2:4"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-10",
+      "planId": "ued-september-2026",
+      "dayNumber": 10,
+      "title": "Día 10: 2 Pedro 1:5-7",
+      "month": 9,
+      "dayOfMonth": 10,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-10-reading-0",
+          "dayId": "ued-september-2026-day-10",
+          "orderIndex": 0,
+          "bookId": "2PE",
+          "bookName": "2 Pedro",
+          "startChapter": 1,
+          "startVerse": 5,
+          "endChapter": 1,
+          "endVerse": 7,
+          "citationLabel": "2 Pedro 1:5-7"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-11",
+      "planId": "ued-september-2026",
+      "dayNumber": 11,
+      "title": "Día 11: 1 Tesalonicenses 5:15",
+      "month": 9,
+      "dayOfMonth": 11,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-11-reading-0",
+          "dayId": "ued-september-2026-day-11",
+          "orderIndex": 0,
+          "bookId": "1TH",
+          "bookName": "1 Tesalonicenses",
+          "startChapter": 5,
+          "startVerse": 15,
+          "endChapter": 5,
+          "endVerse": 15,
+          "citationLabel": "1 Tesalonicenses 5:15"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-12",
+      "planId": "ued-september-2026",
+      "dayNumber": 12,
+      "title": "Día 12: Tito 3:3-4",
+      "month": 9,
+      "dayOfMonth": 12,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-12-reading-0",
+          "dayId": "ued-september-2026-day-12",
+          "orderIndex": 0,
+          "bookId": "TIT",
+          "bookName": "Tito",
+          "startChapter": 3,
+          "startVerse": 3,
+          "endChapter": 3,
+          "endVerse": 4,
+          "citationLabel": "Tito 3:3-4"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-13",
+      "planId": "ued-september-2026",
+      "dayNumber": 13,
+      "title": "Día 13: Proverbios 11:17",
+      "month": 9,
+      "dayOfMonth": 13,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-13-reading-0",
+          "dayId": "ued-september-2026-day-13",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 11,
+          "startVerse": 17,
+          "endChapter": 11,
+          "endVerse": 17,
+          "citationLabel": "Proverbios 11:17"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-14",
+      "planId": "ued-september-2026",
+      "dayNumber": 14,
+      "title": "Día 14: Efesios 2:4-7",
+      "month": 9,
+      "dayOfMonth": 14,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-14-reading-0",
+          "dayId": "ued-september-2026-day-14",
+          "orderIndex": 0,
+          "bookId": "EPH",
+          "bookName": "Efesios",
+          "startChapter": 2,
+          "startVerse": 4,
+          "endChapter": 2,
+          "endVerse": 7,
+          "citationLabel": "Efesios 2:4-7"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-15",
+      "planId": "ued-september-2026",
+      "dayNumber": 15,
+      "title": "Día 15: Salmos 117:1-2",
+      "month": 9,
+      "dayOfMonth": 15,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-15-reading-0",
+          "dayId": "ued-september-2026-day-15",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 117,
+          "startVerse": 1,
+          "endChapter": 117,
+          "endVerse": 2,
+          "citationLabel": "Salmos 117:1-2"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-16",
+      "planId": "ued-september-2026",
+      "dayNumber": 16,
+      "title": "Día 16: Proverbios 14:21",
+      "month": 9,
+      "dayOfMonth": 16,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-16-reading-0",
+          "dayId": "ued-september-2026-day-16",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 14,
+          "startVerse": 21,
+          "endChapter": 14,
+          "endVerse": 21,
+          "citationLabel": "Proverbios 14:21"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-17",
+      "planId": "ued-september-2026",
+      "dayNumber": 17,
+      "title": "Día 17: Salmos 103:8",
+      "month": 9,
+      "dayOfMonth": 17,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-17-reading-0",
+          "dayId": "ued-september-2026-day-17",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 103,
+          "startVerse": 8,
+          "endChapter": 103,
+          "endVerse": 8,
+          "citationLabel": "Salmos 103:8"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-18",
+      "planId": "ued-september-2026",
+      "dayNumber": 18,
+      "title": "Día 18: Proverbios 14:31",
+      "month": 9,
+      "dayOfMonth": 18,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-18-reading-0",
+          "dayId": "ued-september-2026-day-18",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 14,
+          "startVerse": 31,
+          "endChapter": 14,
+          "endVerse": 31,
+          "citationLabel": "Proverbios 14:31"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-19",
+      "planId": "ued-september-2026",
+      "dayNumber": 19,
+      "title": "Día 19: Salmos 145:8-9",
+      "month": 9,
+      "dayOfMonth": 19,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-19-reading-0",
+          "dayId": "ued-september-2026-day-19",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 145,
+          "startVerse": 8,
+          "endChapter": 145,
+          "endVerse": 9,
+          "citationLabel": "Salmos 145:8-9"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-20",
+      "planId": "ued-september-2026",
+      "dayNumber": 20,
+      "title": "Día 20: Proverbios 15:1",
+      "month": 9,
+      "dayOfMonth": 20,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-20-reading-0",
+          "dayId": "ued-september-2026-day-20",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 15,
+          "startVerse": 1,
+          "endChapter": 15,
+          "endVerse": 1,
+          "citationLabel": "Proverbios 15:1"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-21",
+      "planId": "ued-september-2026",
+      "dayNumber": 21,
+      "title": "Día 21: Isaías 63:7",
+      "month": 9,
+      "dayOfMonth": 21,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-21-reading-0",
+          "dayId": "ued-september-2026-day-21",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 63,
+          "startVerse": 7,
+          "endChapter": 63,
+          "endVerse": 7,
+          "citationLabel": "Isaías 63:7"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-22",
+      "planId": "ued-september-2026",
+      "dayNumber": 22,
+      "title": "Día 22: Jeremías 31:3",
+      "month": 9,
+      "dayOfMonth": 22,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-22-reading-0",
+          "dayId": "ued-september-2026-day-22",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 31,
+          "startVerse": 3,
+          "endChapter": 31,
+          "endVerse": 3,
+          "citationLabel": "Jeremías 31:3"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-23",
+      "planId": "ued-september-2026",
+      "dayNumber": 23,
+      "title": "Día 23: Proverbios 16:24",
+      "month": 9,
+      "dayOfMonth": 23,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-23-reading-0",
+          "dayId": "ued-september-2026-day-23",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 16,
+          "startVerse": 24,
+          "endChapter": 16,
+          "endVerse": 24,
+          "citationLabel": "Proverbios 16:24"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-24",
+      "planId": "ued-september-2026",
+      "dayNumber": 24,
+      "title": "Día 24: Zacarías 7:9-10",
+      "month": 9,
+      "dayOfMonth": 24,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-24-reading-0",
+          "dayId": "ued-september-2026-day-24",
+          "orderIndex": 0,
+          "bookId": "ZEC",
+          "bookName": "Zacarías",
+          "startChapter": 7,
+          "startVerse": 9,
+          "endChapter": 7,
+          "endVerse": 10,
+          "citationLabel": "Zacarías 7:9-10"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-25",
+      "planId": "ued-september-2026",
+      "dayNumber": 25,
+      "title": "Día 25: Proverbios 21:21",
+      "month": 9,
+      "dayOfMonth": 25,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-25-reading-0",
+          "dayId": "ued-september-2026-day-25",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 21,
+          "startVerse": 21,
+          "endChapter": 21,
+          "endVerse": 21,
+          "citationLabel": "Proverbios 21:21"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-26",
+      "planId": "ued-september-2026",
+      "dayNumber": 26,
+      "title": "Día 26: Isaías 54:8",
+      "month": 9,
+      "dayOfMonth": 26,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-26-reading-0",
+          "dayId": "ued-september-2026-day-26",
+          "orderIndex": 0,
+          "bookId": "ISA",
+          "bookName": "Isaías",
+          "startChapter": 54,
+          "startVerse": 8,
+          "endChapter": 54,
+          "endVerse": 8,
+          "citationLabel": "Isaías 54:8"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-27",
+      "planId": "ued-september-2026",
+      "dayNumber": 27,
+      "title": "Día 27: Jeremías 9:23-24",
+      "month": 9,
+      "dayOfMonth": 27,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-27-reading-0",
+          "dayId": "ued-september-2026-day-27",
+          "orderIndex": 0,
+          "bookId": "JER",
+          "bookName": "Jeremías",
+          "startChapter": 9,
+          "startVerse": 23,
+          "endChapter": 9,
+          "endVerse": 24,
+          "citationLabel": "Jeremías 9:23-24"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-28",
+      "planId": "ued-september-2026",
+      "dayNumber": 28,
+      "title": "Día 28: Oseas 11:4",
+      "month": 9,
+      "dayOfMonth": 28,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-28-reading-0",
+          "dayId": "ued-september-2026-day-28",
+          "orderIndex": 0,
+          "bookId": "HOS",
+          "bookName": "Oseas",
+          "startChapter": 11,
+          "startVerse": 4,
+          "endChapter": 11,
+          "endVerse": 4,
+          "citationLabel": "Oseas 11:4"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-29",
+      "planId": "ued-september-2026",
+      "dayNumber": 29,
+      "title": "Día 29: Proverbios 25:21-22",
+      "month": 9,
+      "dayOfMonth": 29,
+      "readings": [
+        {
+          "id": "ued-september-2026-day-29-reading-0",
+          "dayId": "ued-september-2026-day-29",
+          "orderIndex": 0,
+          "bookId": "PRO",
+          "bookName": "Proverbios",
+          "startChapter": 25,
+          "startVerse": 21,
+          "endChapter": 25,
+          "endVerse": 22,
+          "citationLabel": "Proverbios 25:21-22"
+        }
+      ]
+    },
+    {
+      "id": "ued-september-2026-day-30",
+      "planId": "ued-september-2026",
+      "dayNumber": 30,
+      "title": "Día 30: Su escritura favorita (Salmos 119:105)",
+      "month": 9,
+      "dayOfMonth": 30,
+      "devotionalNotes": "Día de reflexión: Elija y medite en su escritura favorita.",
+      "readings": [
+        {
+          "id": "ued-september-2026-day-30-reading-0",
+          "dayId": "ued-september-2026-day-30",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 119,
+          "startVerse": 105,
+          "endChapter": 119,
+          "endVerse": 105,
+          "citationLabel": "Su escritura favorita (Salmos 119:105)"
+        }
+      ]
+    }
+  ]
+}

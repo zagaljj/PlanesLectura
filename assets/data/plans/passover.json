@@ -1,0 +1,171 @@
+{
+  "plan": {
+    "id": "passover",
+    "title": "Preparación para la Pascua y el auto examen",
+    "description": "Como parte de nuestra preparación para la Pascua anual, las Escrituras nos instruyen que debemos examinarnos. Este período de introspección nos ayuda a desarrollar nuestra relación con Dios y Jesucristo a medida que crecemos continuamente en el entendimiento de lo que el sacrificio pascual de Cristo significa para nosotros.",
+    "archetype": "thematic",
+    "totalDays": 6,
+    "isFeatured": false
+  },
+  "days": [
+    {
+      "id": "passover-day-1",
+      "planId": "passover",
+      "dayNumber": 1,
+      "title": "Día 1: Tomar la Pascua de una manera digna",
+      "devotionalNotes": "Tomar la Pascua de una manera digna",
+      "reflectionQuestions": [
+        "En 1 de Corintios 11:27-32 Pablo nos advierte en contra de tomar la Pascua de una “manera indigna”. Al meditar en algunos enfoques tanto en la preparación como en la ceremonia de la Pascua en sí, puede haber varias formas indignas. A medida que usted medita un poco en el tema, usted descubre formas en que puede evitar esos enfoques inapropiados."
+      ],
+      "explicitArticleTitles": [
+        "“Examinaos a vosotros mismos”: ¿qué significa ser reprobado?"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-1-reading-0",
+          "dayId": "passover-day-1",
+          "orderIndex": 0,
+          "bookId": "1CO",
+          "bookName": "1 Corintios",
+          "startChapter": 11,
+          "startVerse": 27,
+          "endChapter": 11,
+          "endVerse": 32,
+          "citationLabel": "1 Corintios 11:27-32"
+        }
+      ]
+    },
+    {
+      "id": "passover-day-2",
+      "planId": "passover",
+      "dayNumber": 2,
+      "title": "Día 2: Sed perfectos como vuestro Padre",
+      "devotionalNotes": "Sed perfectos como vuestro Padre",
+      "reflectionQuestions": [
+        "En Mateo 5:48 Jesús dijo que nuestra meta es ser perfectos “así como vuestro Padre que está en los cielos es perfecto”. Haga una lista y estudie tres características de Dios tal como son reveladas en la Biblia. Luego en cada característica escriba un párrafo que describa cómo está demostrando usted esta característica en su vida y formas específicas para poder aumentarla."
+      ],
+      "explicitArticleTitles": [
+        "Características de Dios en el Antiguo y Nuevo Testamento - Infografía"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-2-reading-0",
+          "dayId": "passover-day-2",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 5,
+          "startVerse": 48,
+          "endChapter": 5,
+          "endVerse": 48,
+          "citationLabel": "Mateo 5:48"
+        }
+      ]
+    },
+    {
+      "id": "passover-day-3",
+      "planId": "passover",
+      "dayNumber": 3,
+      "title": "Día 3: La justicia, la misericordia y la fe",
+      "devotionalNotes": "La justicia, la misericordia y la fe",
+      "reflectionQuestions": [
+        "En Mateo 23:23, Jesús se enfrentó con los fariseos porque ellos eran muy meticulosos con el diezmo, pero no tenían en cuenta ciertos temas de carácter como la justicia, la misericordia y la fe. Haga una lista y medite en aspectos de la ley de Dios que usted puede estar obedeciendo en la letra (eso es algo correcto) pero no está teniendo en cuenta la intención espiritual. Piense acerca de esto y concéntrese en formas en que usted puede lograr un mejor equilibrio entre la letra y el espíritu en las leyes de Dios."
+      ],
+      "explicitArticleTitles": [
+        "Las prioridades de Dios: lo más importante de la ley"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-3-reading-0",
+          "dayId": "passover-day-3",
+          "orderIndex": 0,
+          "bookId": "MAT",
+          "bookName": "Mateo",
+          "startChapter": 23,
+          "startVerse": 23,
+          "endChapter": 23,
+          "endVerse": 23,
+          "citationLabel": "Mateo 23:23"
+        }
+      ]
+    },
+    {
+      "id": "passover-day-4",
+      "planId": "passover",
+      "dayNumber": 4,
+      "title": "Día 4: La unidad en la fe",
+      "devotionalNotes": "La unidad en la fe",
+      "reflectionQuestions": [
+        "En Efesios 4:13 Pablo afirma que una de las metas más importantes de un cristiano, es llegar a “la unidad en la fe”. Medite en sus relaciones con los otros miembros en su congregación. ¿Tiene usted resentimiento contra una persona? ¿Tiene sentimientos negativos con alguien? Haga una lista de cosas prácticas que usted puede llevar a cabo el próximo año con el fin de mejorar sus relaciones y su unidad con sus herma- nos y hermanas espirituales."
+      ],
+      "explicitArticleTitles": [
+        "Resentimientos"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-4-reading-0",
+          "dayId": "passover-day-4",
+          "orderIndex": 0,
+          "bookId": "EPH",
+          "bookName": "Efesios",
+          "startChapter": 4,
+          "startVerse": 13,
+          "endChapter": 4,
+          "endVerse": 13,
+          "citationLabel": "Efesios 4:13"
+        }
+      ]
+    },
+    {
+      "id": "passover-day-5",
+      "planId": "passover",
+      "dayNumber": 5,
+      "title": "Día 5: Pecados secretos y soberbia",
+      "devotionalNotes": "Pecados secretos y soberbia",
+      "reflectionQuestions": [
+        "En el Salmo 19:12-14, David hizo una lista de dos clases de pecados, los pecados se- cretos y los pecados de soberbia. Estudie y medite en estas dos diferentes formas de pecado. ¿Qué es un pecado oculto? ¿Qué es un pecado de soberbia? Busque ejemplos de ambos en la Biblia, luego después de que usted sienta que realmente entiende en qué consisten los dos, examine su propia vida y haga una lista de ejemplos de peca- dos ocultos y de pecados de soberbia contra los cuales usted está luchando. ¿Cómo va usted a superar estas debilidades espirituales en el próximo año?"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-5-reading-0",
+          "dayId": "passover-day-5",
+          "orderIndex": 0,
+          "bookId": "PSA",
+          "bookName": "Salmos",
+          "startChapter": 19,
+          "startVerse": 12,
+          "endChapter": 19,
+          "endVerse": 14,
+          "citationLabel": "Salmo 19:12-14"
+        }
+      ]
+    },
+    {
+      "id": "passover-day-6",
+      "planId": "passover",
+      "dayNumber": 6,
+      "title": "Día 6: Las obras de la carne y el fruto del Espíritu",
+      "devotionalNotes": "Las obras de la carne y el fruto del Espíritu",
+      "reflectionQuestions": [
+        "Estudie las obras de la carne y el fruto del espíritu en Gálatas 5:19-23. Para cada obra de la carne ponga al frente una forma en que esto se manifiesta en su vida (ojalá que no). Al frente de cada fruto del espíritu, escriba una forma práctica en la que usted puede demostrar mejor esa característica en su vida. Sea específico, no generalice. 5 1 2 3 4 6 © 2024 Iglesia de Dios, una Asociación Mundial | VidaEsperanzayVerdad.org"
+      ],
+      "explicitArticleTitles": [
+        "El fruto del Espíritu"
+      ],
+      "readings": [
+        {
+          "id": "passover-day-6-reading-0",
+          "dayId": "passover-day-6",
+          "orderIndex": 0,
+          "bookId": "GAL",
+          "bookName": "Gálatas",
+          "startChapter": 5,
+          "startVerse": 19,
+          "endChapter": 5,
+          "endVerse": 23,
+          "citationLabel": "Gálatas 5:19-23"
+        }
+      ]
+    }
+  ]
+}

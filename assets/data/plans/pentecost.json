@@ -1,0 +1,226 @@
+{
+  "plan": {
+    "id": "pentecost",
+    "title": "Hechos 2: Pentecostés y el inicio de la Iglesia de Dios",
+    "description": "La fiesta de Pentecostés es la tercera de las fiestas santas anuales reveladas en la Biblia. Esta guía temática de 7 días lo lleva a través del capítulo 2 de Hechos con preguntas de reflexión y artículos de estudio.",
+    "archetype": "thematic",
+    "totalDays": 7,
+    "isFeatured": false
+  },
+  "days": [
+    {
+      "id": "pentecost-day-1",
+      "planId": "pentecost",
+      "dayNumber": 1,
+      "title": "Día 1: Los discípulos se reúnen en la fiesta de Pentecostés",
+      "devotionalNotes": "Los discípulos se reúnen en la fiesta de Pentecostés",
+      "reflectionQuestions": [
+        "¿Por qué los apóstoles y discípulos estaban “todos unánimes juntos” en este día? ¿Qué nos ense- ña esto acerca de la observancia de las fiestas de Dios después de la ascensión de Cristo al cielo?",
+        "Antes de ascender al cielo, ¿cuál dijo Jesús que sería el próximo gran evento en su plan de salva- ción? ¿Qué debían hacer los apóstoles después de que eso ocurriera? (Vea Hechos 1:8).",
+        "¿Qué significa hablar en lenguas?",
+        "Los apóstoles escucharon un sonido “como de un viento recio que soplaba” que venía del cielo. ¿Con qué se asocia el viento a menudo en las Escrituras? (vea Génesis 2:7; Job 33:4; Juan 20:22)."
+      ],
+      "explicitArticleTitles": [
+        "¿Qué es hablar en lenguas?",
+        "Un acontecimiento que captó la atención"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-1-reading-0",
+          "dayId": "pentecost-day-1",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 1,
+          "endChapter": 2,
+          "endVerse": 4,
+          "citationLabel": "Hechos 2:1-4"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-2",
+      "planId": "pentecost",
+      "dayNumber": 2,
+      "title": "Día 2: El don de hablar en lenguas capta la atención",
+      "devotionalNotes": "El don de hablar en lenguas capta la atención",
+      "reflectionQuestions": [
+        "En el versículo 7, leemos que las personas “estaban [atónitas y maravilladas]” cuando escucha- ron a los apóstoles, muchos de los cuales eran galileos, hablar en sus idiomas. ¿Por qué les sorprendía que los galileos hicieran esto? (Vea Marcos 14:70 y Juan 1:46).",
+        "En el versículo 8 leemos la definición de la Biblia de hablar en lenguas. ¿Cómo difiere de lo que se hace en muchas iglesias modernas que dicen hablar en lenguas?"
+      ],
+      "explicitArticleTitles": [
+        "¿Qué pasa si no puedo hablar en lenguas?",
+        "De Pentecostés a... ¡pentecostalismo?"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-2-reading-0",
+          "dayId": "pentecost-day-2",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 5,
+          "endChapter": 2,
+          "endVerse": 13,
+          "citationLabel": "Hechos 2:5-13"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-3",
+      "planId": "pentecost",
+      "dayNumber": 3,
+      "title": "Día 3: Pedro comienza su poderoso mensaje espontáneo",
+      "devotionalNotes": "Pedro comienza su poderoso mensaje espontáneo",
+      "reflectionQuestions": [
+        "Basándose en su conocimiento acerca de las experiencias y personalidad de Pedro, ¿por qué cree que fue él a quien Dios inspiró para dar este sermón?",
+        "2Pedro citó parte de una profecía de Joel para explicar lo que acababa de ocurrir. En sus propias palabras, resuma la explicación de Pedro del evento milagroso que presenciaron esa mañana."
+      ],
+      "explicitArticleTitles": [
+        "El sermón que dio comienzo a la Iglesia",
+        "La vida del apóstol Pedro",
+        "Pentecostés y el libro de Joel"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-3-reading-0",
+          "dayId": "pentecost-day-3",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 14,
+          "endChapter": 2,
+          "endVerse": 21,
+          "citationLabel": "Hechos 2:14-21"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-4",
+      "planId": "pentecost",
+      "dayNumber": 4,
+      "title": "Día 4: Pedro proclama la identidad de Jesús",
+      "devotionalNotes": "Pedro proclama la identidad de Jesús",
+      "reflectionQuestions": [
+        "Pedro proclama que la identidad de Jesucristo se comprobaba por “maravillas, prodigios y seña- les”. Enumere tres ejemplos de milagros públicos, maravillas y señales que Jesús hizo durante su ministerio que deberían haber convencido a la gente de su naturaleza divina. ¿Cómo fortale- cen estos milagros su fe en la identidad de Cristo como el Mesías y Dios en la carne?",
+        "¿Qué nos enseñan las palabras de Pedro acerca del hecho de que Cristo fue “entregado por el determinado consejo y anticipado conocimiento de Dios” sobre el papel de la muerte sacrificial de Jesús en el plan de Dios? (vea también Apocalipsis 13:8)."
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-4-reading-0",
+          "dayId": "pentecost-day-4",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 22,
+          "endChapter": 2,
+          "endVerse": 24,
+          "citationLabel": "Hechos 2:22-24"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-5",
+      "planId": "pentecost",
+      "dayNumber": 5,
+      "title": "Día 5: La profecía de David sobre la resurrección de Cristo a gloria",
+      "devotionalNotes": "La profecía de David sobre la resurrección de Cristo a gloria",
+      "reflectionQuestions": [
+        "Pedro cita las palabras de David en Salmos 16:8-",
+        "David comienza este salmo escribiendo acerca de sí mismo, pero en el versículo 8 pasa a una profecía acerca de la resurrección de Cris- to. En sus palabras, describa qué nos enseñan estos versículos acerca del tiempo en que Cristo estuvo en la tumba y su resurrección. ¿Qué quería decir Pedro al citar estas palabras?",
+        "¿Qué quería decir Pedro al enfatizar que David “murió y fue sepultado, y su sepulcro está con nosotros hasta el día de hoy”?",
+        "¿Qué doctrina acerca de la muerte refuerza Hechos 2:29?",
+        "Describa brevemente las dos verdades que las palabras de Pedro nos enseñas acerca de la po- sición y responsabilidad actuales de Cristo.",
+        "Según pedro, Cristo se sentará a la mano derecha del Padre hasta que “ponga [el Padre] a tus enemigos por estrado de tus pies” (vv. 34-35). ¿A qué eventos proféticos alude esto? (vea Géne- sis 3:15; Isaías 60:14; Romanos 16:20; Apocalipsis 19:19-21; 20:1-3). La profecía de David sobre la resurrección de Cristo a gloria"
+      ],
+      "explicitArticleTitles": [
+        "El poder de su resurrección",
+        "Ni permitirás que tu santo vea corrupción"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-5-reading-0",
+          "dayId": "pentecost-day-5",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 25,
+          "endChapter": 2,
+          "endVerse": 35,
+          "citationLabel": "Hechos 2:25-35"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-6",
+      "planId": "pentecost",
+      "dayNumber": 6,
+      "title": "Día 6: El poderoso llamado a la acción de Pedro",
+      "devotionalNotes": "El poderoso llamado a la acción de Pedro",
+      "reflectionQuestions": [
+        "Pedro declaró con autoridad que Jesús de Nazaret ahora era “Señor y Cristo”. ¿Por qué cree que esta declaración tuvo tanto impacto emocional para quienes la entendieron?",
+        "Leemos que quienes entendieron las palabras de Pedro “se compungieron de corazón” y pre- guntaron “¿qué haremos?” (v. 37). ¿Qué nos enseña su reacción acerca de la manera en que deberíamos reaccionar cuando nos damos cuenta de que hemos pecado?",
+        "Aunque estas personas acababan de darse cuenta de que eran responsables por la muerte del Mesías, Pedro les dio esperanza. ¿Qué los animó a hacer y qué significa?",
+        "¿Qué cosa estaba disponible para ellos (que no lo estaba antes) si se arrepentían? El poderoso llamado a la acción de Pedro"
+      ],
+      "explicitArticleTitles": [
+        "Arrepentimiento: compungirse de corazón",
+        "Se compungieron de corazón",
+        "Muchos son llamados, y pocos escogidos",
+        "7 pasos del llamamiento cristiano"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-6-reading-0",
+          "dayId": "pentecost-day-6",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 36,
+          "endChapter": 2,
+          "endVerse": 39,
+          "citationLabel": "Hechos 2:36-39"
+        }
+      ]
+    },
+    {
+      "id": "pentecost-day-7",
+      "planId": "pentecost",
+      "dayNumber": 7,
+      "title": "Día 7: El dramático comienzo de la Iglesia de Dios",
+      "devotionalNotes": "El dramático comienzo de la Iglesia de Dios",
+      "reflectionQuestions": [
+        "¿Qué nos enseñan estos versículos acerca de lo que significa “Sed salvos de esta perversa gene- ración”? (lea también 2 Corintios 5:20 y 6:17).",
+        "Tras esta crucial fiesta de Pentecostés, Hechos 2:42 enumera cuatro características definitorias de la Iglesia del Nuevo Testamento. En la siguiente tabla, considere cada característica y escri- ba una breve descripción. Luego, en la tercera columna, escriba algunas palabras acerca de la aplicación moderna de esa característica en la Iglesia actual.",
+        "Considerando todo el capítulo de Hechos 2, enumere algunas lecciones prácticas que la Iglesia de Dios puede aprender del ejemplo de la Iglesia fundada en Pentecostés. El dramático comienzo de la Iglesia de Dios © 2024 Iglesia de Dios, una Asociación Mundial | VidaEsperanzayVerdad.org CUATRO CARACTERÍSTICAS DE LA IGLESIA DE DIOS − ANTES Y AHORA CARACTERÍSTICA DESCRIPCIÓNAPLICACIÓN MODERNA LA DOCTRINA DE LOS APÓSTOLES (Vea “¿Qué es la doctrina?”) CONVIVENCIA (Vea “Convivencia cristiana”) COMPARTIR EL PAN (Vea “¿Fue el sábado remplazado por el domingo?”) ORACIONES (Vea “La oración ferviente”) © 2024 Iglesia de Dios, una Asociación Mundial | VidaEsperanzayVerdad.org"
+      ],
+      "explicitArticleTitles": [
+        "¿Cuál es el propósito de la Iglesia?",
+        "Manifestaciones de la unidad",
+        "La Iglesia de Dios: ¿qué es en realidad?",
+        "Hechos de los apóstoles",
+        "¿Por qué celebramos Pentecostés en domingo?"
+      ],
+      "readings": [
+        {
+          "id": "pentecost-day-7-reading-0",
+          "dayId": "pentecost-day-7",
+          "orderIndex": 0,
+          "bookId": "ACT",
+          "bookName": "Hechos",
+          "startChapter": 2,
+          "startVerse": 40,
+          "endChapter": 2,
+          "endVerse": 47,
+          "citationLabel": "Hechos 2:40-47"
+        }
+      ]
+    }
+  ]
+}
