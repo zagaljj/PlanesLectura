@@ -1,4 +1,4 @@
-import { ISQLiteDatabase } from '../sqlite/DatabaseManager';
+import { ISQLiteDatabase, DatabaseManager } from '../sqlite/DatabaseManager';
 import {
   BibleRepository,
   VerseRangeQuery,
@@ -18,6 +18,7 @@ export class SQLiteBibleRepository implements BibleRepository {
   }
 
   async getVerse(bookId: string, chapter: number, verse: number): Promise<BibleVerse | null> {
+    await DatabaseManager.waitForBibleSeed();
     const row = await this.db.getFirstAsync<any>(
       `SELECT book_id, chapter, verse, verse_text
        FROM bible_verses
@@ -63,6 +64,8 @@ export class SQLiteBibleRepository implements BibleRepository {
       endChapter = queryOrBookId.endChapter ?? startChapter;
       endVerse = queryOrBookId.endVerse;
     }
+
+    await DatabaseManager.waitForBibleSeed();
 
     if (startChapter === endChapter) {
       const rows = await this.db.getAllAsync<any>(

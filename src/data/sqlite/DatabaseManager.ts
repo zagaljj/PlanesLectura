@@ -54,6 +54,7 @@ export const SEED_PLANS: RawPlanData[] = [
 
 export class DatabaseManager {
   private static instance: ISQLiteDatabase | null = null;
+  private static bibleSeedPromise: Promise<void> | null = null;
 
   /**
    * Creates an isolated in-memory database with migrations executed and seed data loaded.
@@ -85,14 +86,32 @@ export class DatabaseManager {
     await db.execAsync('PRAGMA foreign_keys = ON;');
     await runMigrations(db);
     await DatabaseManager.seed(db);
-    await DatabaseManager.seedBible(db);
 
     DatabaseManager.instance = db;
+
+    // Seed Bible in the background with batch inserts so the app launches immediately
+    if (databaseName !== ':memory:' && !DatabaseManager.bibleSeedPromise) {
+      DatabaseManager.bibleSeedPromise = DatabaseManager.seedBible(db).catch((err) => {
+        if (!err?.message?.includes('not open')) {
+          console.warn('Background Bible seeding error:', err);
+        }
+      });
+    }
+
     return db;
   }
 
   /**
-   * Seeds all 31,104 verses of Reina-Valera 1960 into the bible_verses table.
+   * Waits for Bible background seeding to finish if in progress.
+   */
+  static async waitForBibleSeed(): Promise<void> {
+    if (DatabaseManager.bibleSeedPromise) {
+      await DatabaseManager.bibleSeedPromise;
+    }
+  }
+
+  /**
+   * Seeds all 31,104 verses of Reina-Valera 1960 into the bible_verses table using batch inserts.
    * Skips execution if verses already exist in the database.
    */
   static async seedBible(
@@ -109,24 +128,32 @@ export class DatabaseManager {
     const data: Record<string, string[][]> =
       bibleData || require('../../../assets/data/bible/rvr1960.json');
 
-    await db.withTransactionAsync(async () => {
-      for (const [bookId, chapters] of Object.entries(data)) {
-        for (let chIdx = 0; chIdx < chapters.length; chIdx++) {
-          const chapterNum = chIdx + 1;
-          const verses = chapters[chIdx];
-          for (let vIdx = 0; vIdx < verses.length; vIdx++) {
-            const verseNum = vIdx + 1;
-            const text = verses[vIdx];
-            await db.runAsync(
-              `INSERT OR IGNORE INTO bible_verses (book_id, chapter, verse, verse_text)
-               VALUES (?, ?, ?, ?)`,
-              bookId,
-              chapterNum,
-              verseNum,
-              text
-            );
-          }
+    const BATCH_SIZE = 100;
+    const rows: Array<[string, number, number, string]> = [];
+
+    for (const [bookId, chapters] of Object.entries(data)) {
+      for (let chIdx = 0; chIdx < chapters.length; chIdx++) {
+        const chapterNum = chIdx + 1;
+        const verses = chapters[chIdx];
+        if (!verses) continue;
+        for (let vIdx = 0; vIdx < verses.length; vIdx++) {
+          rows.push([bookId, chapterNum, vIdx + 1, verses[vIdx]]);
         }
+      }
+    }
+
+    await db.withTransactionAsync(async () => {
+      for (let i = 0; i < rows.length; i += BATCH_SIZE) {
+        const batch = rows.slice(i, i + BATCH_SIZE);
+        const placeholders = batch.map(() => '(?, ?, ?, ?)').join(', ');
+        const values: any[] = [];
+        for (const row of batch) {
+          values.push(row[0], row[1], row[2], row[3]);
+        }
+        await db.runAsync(
+          `INSERT OR IGNORE INTO bible_verses (book_id, chapter, verse, verse_text) VALUES ${placeholders}`,
+          ...values
+        );
       }
     });
   }
@@ -148,6 +175,7 @@ export class DatabaseManager {
     if (DatabaseManager.instance) {
       await DatabaseManager.instance.closeAsync();
       DatabaseManager.instance = null;
+      DatabaseManager.bibleSeedPromise = null;
     }
   }
 
