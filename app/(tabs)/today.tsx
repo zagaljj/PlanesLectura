@@ -54,15 +54,13 @@ export default function TodayScreen({
       setLoading(true);
       const plans = await getActivePlansUseCase.execute();
       setActivePlans(plans);
-      if (selectedPlanIndex >= plans.length && plans.length > 0) {
-        setSelectedPlanIndex(0);
-      }
+      setSelectedPlanIndex((prev) => (prev >= plans.length && plans.length > 0 ? 0 : prev));
     } catch {
       // Offline fallback: keep current state
     } finally {
       setLoading(false);
     }
-  }, [getActivePlansUseCase, selectedPlanIndex]);
+  }, [getActivePlansUseCase]);
 
   useEffect(() => {
     loadActivePlans();

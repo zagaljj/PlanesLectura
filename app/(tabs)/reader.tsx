@@ -54,25 +54,34 @@ export default function ReaderScreen({
   const [localFontSizeModifier, setLocalFontSizeModifier] = useState<number>(context.fontSizeModifier);
   const [isLocalDarkMode, setIsLocalDarkMode] = useState<boolean>(themeContext.isDarkMode);
 
+  const paramReadingId = params.readingId;
+  const paramCitationLabel = params.citationLabel;
+  const paramBookId = params.bookId;
+  const paramBookName = params.bookName;
+  const paramStartChapter = params.startChapter;
+  const paramStartVerse = params.startVerse;
+  const paramEndChapter = params.endChapter;
+  const paramEndVerse = params.endVerse;
+
   // Active reading resolution: prop -> params -> context
   const activeReading: PlanReading | null = useMemo(() => {
     if (propReading !== undefined) {
       return propReading;
     }
 
-    if (params.readingId && params.citationLabel) {
+    if (paramReadingId && paramCitationLabel) {
       try {
         return new PlanReading({
-          id: params.readingId,
+          id: paramReadingId,
           dayId: 'params-day',
           orderIndex: 0,
-          bookId: params.bookId || 'GEN',
-          bookName: params.bookName || 'Génesis',
-          startChapter: parseInt(params.startChapter || '1', 10),
-          startVerse: params.startVerse ? parseInt(params.startVerse, 10) : undefined,
-          endChapter: parseInt(params.endChapter || params.startChapter || '1', 10),
-          endVerse: params.endVerse ? parseInt(params.endVerse, 10) : undefined,
-          citationLabel: params.citationLabel,
+          bookId: paramBookId || 'GEN',
+          bookName: paramBookName || 'Génesis',
+          startChapter: parseInt(paramStartChapter || '1', 10),
+          startVerse: paramStartVerse ? parseInt(paramStartVerse, 10) : undefined,
+          endChapter: parseInt(paramEndChapter || paramStartChapter || '1', 10),
+          endVerse: paramEndVerse ? parseInt(paramEndVerse, 10) : undefined,
+          citationLabel: paramCitationLabel,
         });
       } catch {
         // Fall through to context
@@ -80,7 +89,18 @@ export default function ReaderScreen({
     }
 
     return context.selectedReading;
-  }, [propReading, params, context.selectedReading]);
+  }, [
+    propReading,
+    paramReadingId,
+    paramCitationLabel,
+    paramBookId,
+    paramBookName,
+    paramStartChapter,
+    paramStartVerse,
+    paramEndChapter,
+    paramEndVerse,
+    context.selectedReading,
+  ]);
 
   const activeSubscriptionId =
     propSubscriptionId ??
@@ -105,7 +125,11 @@ export default function ReaderScreen({
     }
   }, [propIsCompleted, params.isCompleted]);
 
-  // Load verses when activeReading changes
+  const readingKey = activeReading
+    ? `${activeReading.id}-${activeReading.bookId}-${activeReading.startChapter}:${activeReading.startVerse ?? ''}-${activeReading.endChapter}:${activeReading.endVerse ?? ''}`
+    : '';
+
+  // Load verses when activeReading identity changes
   useEffect(() => {
     let isMounted = true;
 
@@ -136,7 +160,7 @@ export default function ReaderScreen({
     return () => {
       isMounted = false;
     };
-  }, [activeReading, getPassageVersesUseCase]);
+  }, [readingKey, getPassageVersesUseCase]);
 
   const colors = isLocalDarkMode ? darkColors : lightColors;
 
