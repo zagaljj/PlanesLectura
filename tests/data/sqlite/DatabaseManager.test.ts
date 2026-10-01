@@ -202,6 +202,16 @@ describe('DatabaseManager', () => {
     await DatabaseManager.resetInstance();
   });
 
+  it('should initialize cleanly with default v2 database name', async () => {
+    await DatabaseManager.resetInstance();
+    const db = await DatabaseManager.initialize();
+    expect(db).toBeDefined();
+    const plans = await db.getAllAsync('SELECT id FROM reading_plans');
+    expect(plans.length).toBe(5);
+    await DatabaseManager.resetInstance();
+  });
+
+
   it('should seed bible verses and retrieve passages correctly', async () => {
     const db = await DatabaseManager.createInMemory();
 

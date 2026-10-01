@@ -106,3 +106,8 @@ export async function openDatabaseAsync(databaseName: string): Promise<ISQLiteDa
   const rawDb = new Database(target);
   return new BetterSqliteDatabaseAdapter(rawDb);
 }
+
+export async function deleteDatabaseAsync(_databaseName: string): Promise<void> {
+  // Mock no-op for tests
+}
+

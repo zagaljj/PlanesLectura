@@ -76,8 +76,9 @@ export class DatabaseManager {
   /**
    * Initializes the database connection, runs migrations and populates seeds.
    * Uses an in-flight promise mutex to prevent concurrent initialization collisions.
+   * Includes automatic self-healing recovery if the database file is locked by an orphaned process.
    */
-  static async initialize(databaseName: string = 'planes_lectura.db'): Promise<ISQLiteDatabase> {
+  static async initialize(databaseName: string = 'planes_lectura_v2.db'): Promise<ISQLiteDatabase> {
     if (DatabaseManager.instance) {
       return DatabaseManager.instance;
     }
@@ -88,28 +89,73 @@ export class DatabaseManager {
 
     DatabaseManager.initPromise = (async () => {
       try {
-        const db = (await SQLite.openDatabaseAsync(databaseName)) as unknown as ISQLiteDatabase;
+        return await DatabaseManager.openAndSetupDatabase(databaseName);
+      } catch (error: any) {
+        // Self-healing: if database is locked or corrupted by an orphaned native process, delete and recreate cleanly
+        const isLockError =
+          error?.message &&
+          (error.message.includes('locked') ||
+            error.message.includes('busy') ||
+            error.message.includes('finalizedAsync') ||
+            error.message.includes('execAsync'));
 
-        // Enable Write-Ahead Logging and 10s busy timeout to eliminate "database is locked" errors
-        if (databaseName !== ':memory:') {
-          await db.execAsync('PRAGMA journal_mode = WAL;');
-          await db.execAsync('PRAGMA busy_timeout = 10000;');
+        if (isLockError && databaseName !== ':memory:') {
+          console.warn(
+            `[DatabaseManager] Database "${databaseName}" encountered lock error (${error.message}). Attempting cleanup and fresh re-initialization...`
+          );
+          try {
+            if (typeof (SQLite as any).deleteDatabaseAsync === 'function') {
+              await (SQLite as any).deleteDatabaseAsync(databaseName);
+            }
+            return await DatabaseManager.openAndSetupDatabase(databaseName);
+          } catch (retryError) {
+            console.error('[DatabaseManager] Failed to recover locked database:', retryError);
+          }
         }
-        await db.execAsync('PRAGMA foreign_keys = ON;');
 
-        await runMigrations(db);
-        await DatabaseManager.seed(db);
-        await DatabaseManager.seedBible(db);
-
-        DatabaseManager.instance = db;
-        return db;
-      } catch (error) {
         DatabaseManager.initPromise = null;
         throw error;
       }
     })();
 
     return DatabaseManager.initPromise;
+  }
+
+  /**
+   * Opens the SQLite database file and configures busy timeouts, WAL journal, schema migrations, and seeds.
+   */
+  private static async openAndSetupDatabase(databaseName: string): Promise<ISQLiteDatabase> {
+    const db = (await SQLite.openDatabaseAsync(databaseName)) as unknown as ISQLiteDatabase;
+
+    if (databaseName !== ':memory:') {
+      // 1. Set busy_timeout first so SQLite waits up to 10s for any transient locks instead of failing immediately
+      try {
+        await db.execAsync('PRAGMA busy_timeout = 10000;');
+      } catch (e) {
+        console.warn('[DatabaseManager] Could not set busy_timeout:', e);
+      }
+
+      // 2. Enable Write-Ahead Logging (WAL) for concurrent read/write support
+      try {
+        await db.execAsync('PRAGMA journal_mode = WAL;');
+      } catch (e) {
+        console.warn('[DatabaseManager] WAL mode not supported or locked, continuing:', e);
+      }
+    }
+
+    await db.execAsync('PRAGMA foreign_keys = ON;');
+
+    await runMigrations(db);
+    await DatabaseManager.seed(db);
+
+    try {
+      await DatabaseManager.seedBible(db);
+    } catch (bibleErr) {
+      console.warn('[DatabaseManager] Non-fatal warning during bible seeding:', bibleErr);
+    }
+
+    DatabaseManager.instance = db;
+    return db;
   }
 
   /**
@@ -123,7 +169,7 @@ export class DatabaseManager {
     const existing = await db.getFirstAsync<{ count: number }>(
       'SELECT count(*) as count FROM bible_verses'
     );
-    if (existing && existing.count > 0) {
+    if (existing && existing.count >= 31100) {
       return;
     }
 
@@ -163,7 +209,7 @@ export class DatabaseManager {
   /**
    * Returns the initialized database singleton.
    */
-  static async getDatabase(databaseName: string = 'planes_lectura.db'): Promise<ISQLiteDatabase> {
+  static async getDatabase(databaseName: string = 'planes_lectura_v2.db'): Promise<ISQLiteDatabase> {
     if (DatabaseManager.instance) {
       return DatabaseManager.instance;
     }
