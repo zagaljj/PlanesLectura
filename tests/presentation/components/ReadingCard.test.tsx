@@ -45,6 +45,7 @@ describe('ReadingCard Component', () => {
     );
     const checkbox = getByTestId('checkbox');
     expect(checkbox.props.accessibilityState).toEqual({ checked: true });
+    expect(checkbox.props.hitSlop).toEqual({ top: 10, bottom: 10, left: 10, right: 10 });
   });
 
   it('should render optional reading order number or title if provided', async () => {

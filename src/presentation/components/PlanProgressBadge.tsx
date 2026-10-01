@@ -30,6 +30,12 @@ export const PlanProgressBadge: React.FC<PlanProgressBadgeProps> = ({
   const hasDaysFraction =
     completedDays !== undefined && totalDays !== undefined;
 
+  const hasStreak = streak !== undefined && streak > 0;
+
+  if (calculatedPercentage === undefined && !hasStreak) {
+    return null;
+  }
+
   return (
     <View style={[styles.container, sizeStyles[size].container]} testID={testID}>
       {calculatedPercentage !== undefined && (

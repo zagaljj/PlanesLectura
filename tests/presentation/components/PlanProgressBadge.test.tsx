@@ -32,4 +32,9 @@ describe('PlanProgressBadge Component', () => {
     expect(getByText('80%')).toBeTruthy();
     expect(getByText(/12 días/)).toBeTruthy();
   });
+
+  it('should return null when neither percentage nor streak is provided', async () => {
+    const { toJSON } = await render(<PlanProgressBadge />);
+    expect(toJSON()).toBeNull();
+  });
 });

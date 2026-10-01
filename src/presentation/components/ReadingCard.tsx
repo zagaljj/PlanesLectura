@@ -32,6 +32,7 @@ export const ReadingCard: React.FC<ReadingCardProps> = ({
         <TouchableOpacity
           testID="checkbox"
           onPress={onToggle}
+          hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           accessibilityRole="checkbox"
           accessibilityLabel={`Marcar ${citationLabel} como leído`}
           accessibilityState={{ checked: isCompleted }}
