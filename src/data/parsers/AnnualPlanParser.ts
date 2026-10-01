@@ -238,32 +238,56 @@ export class AnnualPlanParser {
 
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
-        const text = line.text
-          .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')
-          .replace(/\s+/g, ' ')
-          .trim();
+        const trimmed = line.text.trim();
 
-        const dayMatch = text.match(/^(\d{1,2})\s+(.+)$/);
-        if (dayMatch) {
-          const parsedNum = parseInt(dayMatch[1], 10);
+        const dayHeaderMatch = trimmed.match(
+          /^(\d{1,2})\s*[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]\s*(.*)$/
+        );
+        const bulletMatch = trimmed.match(/^[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]\s*(.*)$/);
+
+        if (dayHeaderMatch) {
+          const parsedNum = parseInt(dayHeaderMatch[1], 10);
           let assignedDay = parsedNum;
-          if (assignedDay === currentDayNum + 1) {
-            currentDayNum = assignedDay;
-          } else if (
+          if (
             assignedDay === currentDayNum &&
             currentDayNum + 1 <= daysInMonth
           ) {
             // Source typo in PDF (e.g., June 25 repeated instead of 26)
-            currentDayNum = currentDayNum + 1;
-            assignedDay = currentDayNum;
+            assignedDay = currentDayNum + 1;
           }
-          monthDays.set(assignedDay, [dayMatch[2].trim()]);
-        } else if (currentDayNum > 0 && text) {
-          // Check if it's a month title like "MAYO" or "M AYO"
-          const normalized = text.toLowerCase().replace(/\s+/g, '');
+          currentDayNum = assignedDay;
+          const initialReading = dayHeaderMatch[2]
+            .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+          const list = monthDays.get(currentDayNum) || [];
+          if (initialReading) {
+            list.push(initialReading);
+          }
+          monthDays.set(currentDayNum, list);
+        } else if (bulletMatch && currentDayNum > 0) {
+          const secondaryReading = bulletMatch[1]
+            .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+          if (secondaryReading) {
+            const list = monthDays.get(currentDayNum) || [];
+            list.push(secondaryReading);
+            monthDays.set(currentDayNum, list);
+          }
+        } else if (currentDayNum > 0 && trimmed) {
+          const cleaned = trimmed
+            .replace(/[\uFFFD\u2022\u25A0\u25A1\u25CF\u25CB]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+          const normalized = cleaned.toLowerCase().replace(/\s+/g, '');
           if (!SPANISH_MONTHS.includes(normalized)) {
             const list = monthDays.get(currentDayNum) || [];
-            list.push(text);
+            if (list.length > 0) {
+              list[list.length - 1] += ' ' + cleaned;
+            } else {
+              list.push(cleaned);
+            }
             monthDays.set(currentDayNum, list);
           }
         }
@@ -273,51 +297,23 @@ export class AnnualPlanParser {
         cumulativeDay++;
         const rawCitations = monthDays.get(d) || [];
 
-        // Join continuation lines (e.g. "Deuteronomio 14-" followed by "16")
-        const mergedCitations: string[] = [];
-        for (const raw of rawCitations) {
-          if (
-            /^\d/.test(raw) &&
-            !/^[123]\s+[A-Za-zÁÉÍÓÚáéíóú]/.test(raw) &&
-            mergedCitations.length > 0
-          ) {
-            mergedCitations[mergedCitations.length - 1] += ' ' + raw;
-          } else {
-            mergedCitations.push(raw);
-          }
-        }
-
         const dayId = `${planId}-day-${cumulativeDay}`;
         const parsedReadings: ParsedReading[] = [];
 
-        mergedCitations.forEach((cit, orderIdx) => {
-          try {
-            const parsed = CitationParser.parse(cit);
-            parsedReadings.push({
-              id: `${dayId}-reading-${orderIdx}`,
-              dayId,
-              orderIndex: orderIdx,
-              bookId: parsed.bookId,
-              bookName: parsed.bookName,
-              startChapter: parsed.startChapter,
-              startVerse: parsed.startVerse,
-              endChapter: parsed.endChapter,
-              endVerse: parsed.endVerse,
-              citationLabel: parsed.citationLabel
-            });
-          } catch {
-            // Fallback if parsing citation fails
-            parsedReadings.push({
-              id: `${dayId}-reading-${orderIdx}`,
-              dayId,
-              orderIndex: orderIdx,
-              bookId: 'GEN',
-              bookName: 'Génesis',
-              startChapter: 1,
-              endChapter: 1,
-              citationLabel: cit
-            });
-          }
+        rawCitations.forEach((cit, orderIdx) => {
+          const parsed = CitationParser.parse(cit);
+          parsedReadings.push({
+            id: `${dayId}-reading-${orderIdx}`,
+            dayId,
+            orderIndex: orderIdx,
+            bookId: parsed.bookId,
+            bookName: parsed.bookName,
+            startChapter: parsed.startChapter,
+            startVerse: parsed.startVerse,
+            endChapter: parsed.endChapter,
+            endVerse: parsed.endVerse,
+            citationLabel: parsed.citationLabel
+          });
         });
 
         days.push({

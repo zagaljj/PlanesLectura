@@ -12,13 +12,36 @@ describe('PDF Ingestion Parsers', () => {
     expect(result.plan.totalDays).toBe(365);
   });
 
-  it('should parse 365 days for Chronological plan', async () => {
+  it('should parse 365 days for Chronological plan with multi-reading fidelity', async () => {
     const parser = new AnnualPlanParser();
     const result = await parser.parseFile('Programa_cronologico_de_la_biblia.pdf');
     expect(result.days).toHaveLength(365);
     expect(result.days[0].readings.length).toBeGreaterThanOrEqual(1);
     expect(result.plan.archetype).toBe('annual');
     expect(result.plan.totalDays).toBe(365);
+
+    // Verify Day 121 (May 1) preserves all readings (2 Samuel 5:1-10 and 1 Crónicas 11-12)
+    const day121 = result.days[120];
+    expect(day121.dayNumber).toBe(121);
+    expect(day121.month).toBe(5);
+    expect(day121.dayOfMonth).toBe(1);
+    expect(day121.readings).toHaveLength(2);
+    expect(day121.readings[0].bookId).toBe('2SA');
+    expect(day121.readings[0].citationLabel).toBe('2 Samuel 5:1-10');
+    expect(day121.readings[1].bookId).toBe('1CH');
+    expect(day121.readings[1].citationLabel).toBe('1 Crónicas 11-12');
+
+    // Verify zero readings fell back to GEN when citation was not Genesis
+    const invalidGenFallbacks = result.days.flatMap(d =>
+      d.readings.filter(
+        r => r.bookId === 'GEN' && !/génesis|genesis/i.test(r.citationLabel)
+      )
+    );
+    expect(invalidGenFallbacks).toHaveLength(0);
+
+    // Verify multi-reading days are present
+    const multiReadingDays = result.days.filter(d => d.readings.length > 1);
+    expect(multiReadingDays.length).toBeGreaterThanOrEqual(60);
   });
 
   it('should parse 30 days for UED Monthly Challenge plan', async () => {
