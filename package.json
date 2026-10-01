@@ -9,7 +9,10 @@
     "web": "expo start --web",
     "test": "jest --runInBand",
     "ingest": "ts-node -P tsconfig.scripts.json scripts/ingest-plans.ts",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "build:android": "eas build --platform android --profile preview",
+    "build:ios": "eas build --platform ios --profile preview",
+    "build:all": "eas build --platform all --profile preview"
   },
   "dependencies": {
     "expo": "^57.0.26",

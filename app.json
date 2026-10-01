@@ -7,16 +7,23 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.vidaesperanzayverdad.planeslectura"
     },
-    "android": {},
+    "android": {
+      "package": "org.vidaesperanzayverdad.planeslectura",
+      "permissions": [
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
+    },
     "web": {
       "bundler": "metro",
       "output": "static"
     },
     "plugins": [
       "expo-router",
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-notifications"
     ],
     "scheme": "planeslectura"
   }
