@@ -12,6 +12,7 @@ module.exports = {
       ],
       moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1',
+        '^expo-sqlite$': '<rootDir>/tests/mocks/expo-sqlite.ts',
       },
       transform: {
         '^.+\\.tsx?$': [
@@ -33,6 +34,7 @@ module.exports = {
       ],
       moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1',
+        '^expo-sqlite$': '<rootDir>/tests/mocks/expo-sqlite.ts',
       },
     },
   ],
